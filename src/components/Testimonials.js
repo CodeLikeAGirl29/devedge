@@ -57,7 +57,7 @@ const Testimonials = () => {
                     ready to help her classmates in whatever way she
                     can. She even took the initiative to reach out to
                     me personally regarding a question I had in class
-                    for my teacher. I'm confident she will be a good
+                    for my teacher. I&apos;m confident she will be a good
                     addition to any team!
                   </div>
                 </div>
@@ -72,10 +72,10 @@ const Testimonials = () => {
                     <div className="company">Branch Chief at US Air Force</div>
                   </div>
                   <div className="text">
-                     I mentored Lindsey through her online training
-                          program. I found her intelligent and eager to
-                          learn. I would highly recommend her for any web
-                          development opportunity.
+                    I mentored Lindsey through her online training
+                    program. I found her intelligent and eager to
+                    learn. I would highly recommend her for any web
+                    development opportunity.
                   </div>
                 </div>
               </SwiperSlide>
