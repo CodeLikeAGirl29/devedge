@@ -25,10 +25,10 @@ const BlogPost = () => {
 
               <div className="single-post-text">
                 <h1 className="heading">Frontend Developers Handbook</h1>
-                <p>   We should pause for a moment to clarify the differences between a front end developer, back end developer, and full stack developer. Let’s put this in simple terms: a front end developer is responsible for the parts of an
-                  app or website that users see and interact with. A back end developer takes care of the “behind the scenes” matters such as infrastructure and databases. The full-stack developer is a mixture of both, a jack of all trades
+                <p>We should pause for a moment to clarify the differences between a front end developer, back end developer, and full stack developer. Let&apos;s put this in simple terms: a front end developer is responsible for the parts of an
+                  app or website that users see and interact with. A back end developer takes care of the &apos;behind the scenes&apos; matters such as infrastructure and databases. The full-stack developer is a mixture of both, a jack of all trades
                   that can handle the whole design process from the beginning to the end.</p>
-                <p>Note that there’s a trend these days where the line between the front end and back end development has been blurring. Primarily since many of the tasks that fall in the domain of back end developers are being increasingly
+                <p>Note that there&apos;s a trend these days where the line between the front end and back end development has been blurring. Primarily since many of the tasks that fall in the domain of back end developers are being increasingly
                   handled by the front end developers.<br /></p>
                 <p> As a final aside, there are also full-stack engineers. They are full-stack developers who have project management experience, adept at disciplines in the configuring, managing, and maintaining computer networks and
                   systems.<br /></p>
@@ -44,11 +44,11 @@ const BlogPost = () => {
                 />
                 <p>Reasons to become a Frontend Developer...</p>
                 <ul>
-                  <li>You'll be in high demand.</li>
+                  <li>You&apos;ll be in high demand.</li>
                   <li>You can work anywhere in the world.</li>
-                  <li>You wont get bored working on a variety of projects.</li>
+                  <li>You won&apos;t get bored working on a variety of projects.</li>
                   <li>Excellent salary.</li>
-                  <li>You wont need a college degree</li>
+                  <li>You wont need a college degree.</li>
                 </ul>
                 <p>Programming languages commonly used for the Frontend:</p>
                 <Image

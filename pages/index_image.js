@@ -23,9 +23,8 @@ const IndexImage = () => {
           <div className="vertical-center">
             <div className="started-content">
               <h1 className="h-title">
-                Hello, I’m <strong>Lindsey Howard</strong>, UX/UI Designer and{" "}
-                <br />
-                Front-end Developer Based in Ft Walton Beach, FL.
+                Hello, I&apos;m <strong>Lindsey Howard</strong>, a
+                Front-end Developer based in Ft Walton Beach, FL.
               </h1>
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />

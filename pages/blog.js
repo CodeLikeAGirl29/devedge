@@ -40,7 +40,7 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Creating a Blog Post</Link>
                     <div className="single-post-text">
-                      <p>In today's digital age, creating a blog site is a fantastic way to share your thoughts, insights, and passions with the world. While there are plenty of platforms available for this purpose, building your blog site from scratch with JavaScript, HTML, and CSS provides a unique opportunity for creative control and customization. In this guide, we'll walk you through the steps to create your blog site using these fundamental web technologies.</p>
+                      <p>In today&apos;s digital age, creating a blog site is a fantastic way to share your thoughts, insights, and passions with the world. While there are plenty of platforms available for this purpose, building your blog site from scratch with JavaScript, HTML, and CSS provides a unique opportunity for creative control and customization. In this guide, we&apos;ll walk you through the steps to create your blog site using these fundamental web technologies.</p>
 
                     </div>
                   </div>
@@ -69,7 +69,7 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Gatsby 101</Link>
                     <div className="single-post-text">
-                      <p>Discover how Gatsby.js, built on React and GraphQL, offers lightning-fast performance and improved SEO by generating static HTML files for your website. We'll also explore its rich ecosystem of plugins and themes, making it easier than ever to build interactive, content-rich sites. </p>
+                      <p>Discover how Gatsby.js, built on React and GraphQL, offers lightning-fast performance and improved SEO by generating static HTML files for your website. We&apos;ll cover everything from installing Gatsby to creating a simple blog site, and we&apos;ll also explore its rich ecosystem of plugins and themes, making it easier than ever to build interactive, content-rich sites. </p>
 
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Frontend Developer's Handbook</Link>
                     <div className="single-post-text">
-                      <p>Here, I present the ultimate handbook for frontend developers, offering a treasure trove of insights, tips, and resources to empower you in your web development journey. Whether you're a seasoned pro or just starting, this comprehensive guide is a valuable resource to navigate the ever-evolving world of frontend development.</p>
+                      <p>Here, I present the ultimate handbook for frontend developers, offering a treasure trove of insights, tips, and resources to empower you in your web development journey. Whether you&apos;re a seasoned pro or just starting, this comprehensive guide is a valuable resource to navigate the ever-evolving world of frontend development.</p>
 
                     </div>
                   </div>
@@ -127,7 +127,7 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Staying Productive</Link>
                     <div className="single-post-text">
-                      <p> It’s tempting to look at highly productive people as machines (or wizards). But by studying how they work efficiently and overcome the challenges we all experience, it’s possible to boost your own productivity as
+                      <p> It&apos;s tempting to look at highly productive people as machines (or wizards). But by studying how they work efficiently and overcome the challenges we all experience, it&apos;s possible to boost your own productivity as
                         well. </p>
 
                     </div>
@@ -141,7 +141,7 @@ const Blog = () => {
                 <div className="post">
                   <div className="image">
                     <Link href="/blog_post" className="post-thumbnail">
-                      <img src="images/blog/blog-6.png" className="wp-post-image" alt="By spite about what to do" />
+                      <img src="images/blog/blog-6.png" className="wp-post-image" alt="Styling with CSS" />
                       <span className="info">
                         <span className="centrize full-width">
                           <span className="vertical-center">
@@ -157,7 +157,7 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Styling with CSS</Link>
                     <div className="single-post-text">
-                      <p> Once you’ve learned how the box model works, and how to float those boxes, it’s time to get serious about your CSS. To that end, we’ve compiled a massive list of tips, tricks, techniques, and the occasional dirty
+                      <p> Once you&apos;ve learned how the box model works, and how to float those boxes, it&apos;s time to get serious about your CSS. To that end, we&apos;ve compiled a massive list of tips, tricks, techniques, and the occasional dirty
                         hack to help you build the design you want.</p>
 
                     </div>
@@ -186,19 +186,19 @@ const Blog = () => {
                 <ul>
 
                   <li>
-                    <a href="#">Welcome to Jekyll!</a>
+                    <a href="#">Frontend Dev Handbook</a>
                   </li>
 
                   <li>
-                    <a href="#">By spite about do of do allow blush</a>
+                    <a href="#">Gatsby.js 101</a>
                   </li>
 
                   <li>
-                    <a href="#">Two Before Arrow Not Relied</a>
+                    <a href="#">Staying Productive</a>
                   </li>
 
                   <li>
-                    <a href="#">Design in Mobile Application</a>
+                    <a href="#">Hiring a Developer</a>
                   </li>
 
                 </ul>
@@ -210,11 +210,11 @@ const Blog = () => {
 
                   <li><a href="#">Design</a> <small>(2)</small></li>
 
-                  <li><a href="#">Mobile</a> <small>(1)</small></li>
+                  <li><a href="#">Frontend</a> <small>(1)</small></li>
 
-                  <li><a href="#">Music</a> <small>(2)</small></li>
+                  <li><a href="#">Code</a> <small>(2)</small></li>
 
-                  <li><a href="#">Video</a> <small>(1)</small></li>
+                  <li><a href="#">Guides</a> <small>(1)</small></li>
 
                 </ul>
               </section>
@@ -224,12 +224,10 @@ const Blog = () => {
                 <h2 className="widget-title">Tags</h2>
 
                 <div className="tags">
-                  <a href="#">jekyll</a>
-                  <a href="#">app</a>
-                  <a href="#">mobile</a>
+                  <a href="#">frontend</a>
                   <a href="#">code</a>
-                  <a href="#">rock</a>
-                  <a href="#">Jekyll</a>
+                  <a href="#">guides</a>
+                  <a href="#">design</a>
                 </div>
 
               </section>

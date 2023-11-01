@@ -581,21 +581,16 @@ const IndexOnePage = () => {
           <div className="content">
             {/* title */}
             <div className="title">
-              <div className="title_inner">Custom Text</div>
+              <div className="title_inner">Hiring Me</div>
             </div>
             {/* clients items */}
             <div className="content-box">
               <div className="single-post-text">
                 <p>
-                  Now there is more fashion. There is no so-called trends. Now
-                  chase after anything not necessary — nor for fashionable color
-                  nor the shape, nor for style. Think about the content that you
-                  want to invest in a created object, and only then will form.
-                  The thing is your spirit. A spirit unlike forms hard copy.
+                  Hiring me as a developer offers a multitude of benefits that stem from a unique combination of skills, experience, and a passion for solving complex problems. I bring to the table a deep and up-to-date understanding of a wide range of programming languages, frameworks, and technologies, enabling me to adapt quickly to your specific project needs.
                 </p>
                 <p>
-                  Here choose yourself like that, without any looking back, do
-                  your personal, home, small fashion, and all will be well.
+                  One of my key strengths is my commitment to producing high-quality, clean, and efficient code. I take pride in writing code that not only works but is also maintainable and scalable, which is vital for the long-term success of any software project. I am dedicated to adhering to industry best practices and coding standards, ensuring that the codebase remains organized and easily comprehensible, both for myself and for the entire development team.
                 </p>
               </div>
             </div>
@@ -618,7 +613,7 @@ const IndexOnePage = () => {
           <div className="content">
             {/* title */}
             <div className="title">
-              <div className="title_inner">Contacts</div>
+              <div className="title_inner">Contact</div>
             </div>
             {/* contacts items */}
             <div className="service-items">
@@ -628,7 +623,7 @@ const IndexOnePage = () => {
                     <span className="fas fa-phone" />
                   </div>
                   <div className="name">Phone</div>
-                  <div className="text">+ (231) 456 67 89</div>
+                  <div className="text">850.865.2684</div>
                 </div>
               </div>
               <div className="service-col">
@@ -638,8 +633,8 @@ const IndexOnePage = () => {
                   </div>
                   <div className="name">Email</div>
                   <div className="text">
-                    <a href="mailto:steve-pearson@gmail.com">
-                      steve-pearson@gmail.com
+                    <a href="mailto:lindseykdev@gmail.com">
+                      lindseykdev@gmail.com
                     </a>
                   </div>
                 </div>
@@ -650,7 +645,7 @@ const IndexOnePage = () => {
                     <span className="fas fa-map-marker-alt" />
                   </div>
                   <div className="name">Address</div>
-                  <div className="text">2621 W Pico Blvd, Los Angeles</div>
+                  <div className="text">Mary Esther, Fort Walton Beach, Florida 32548</div>
                 </div>
               </div>
               <div className="service-col">
@@ -675,7 +670,7 @@ const IndexOnePage = () => {
             </div>
             {/* form */}
             <div className="contact_form content-box">
-              <form id="cform" method="post">
+              <form id="cform" method="post" action="https://formspree.io/f/xoqzngno">
                 <div className="group-val">
                   <input type="text" name="name" placeholder="Name" />
                 </div>
@@ -697,7 +692,7 @@ const IndexOnePage = () => {
                 </div>
               </form>
               <div className="alert-success">
-                <p>Thanks, your message is sent successfully.</p>
+                <p>Thanks, your message was sent successfully.</p>
               </div>
             </div>
           </div>
@@ -709,7 +704,7 @@ const IndexOnePage = () => {
           <div className="video-bg">
             <div className="map" id="map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-74.0154445224086!3d40.7260256534837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55039.7558564629!2d-86.66854186784917!3d30.4365344845672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889116d2aaa0387d%3A0xe3a6ad0f3c9e67c7!2sFort%20Walton%20Beach%2C%20FL!5e0!3m2!1sen!2sus!4v1698848081151!5m2!1sen!2sus"
                 style={{ border: 0, width: "100%", height: "100%" }}
                 allowFullScreen=""
                 loading="lazy"

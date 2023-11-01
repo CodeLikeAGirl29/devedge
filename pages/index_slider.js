@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
+
 const IndexSlider = () => {
   const props = {
     init: false,
@@ -91,9 +92,8 @@ const IndexSlider = () => {
           <div className="vertical-center">
             <div className="started-content">
               <h1 className="h-title">
-                Hello, I’m <strong>Lindsey Howard</strong>, UX/UI Designer and{" "}
-                <br />
-                Front-end Developer Based in Ft Walton Beach, FL.
+                Hello, I&apos;m <strong>Lindsey Howard</strong>, a
+                Front-end Developer based in Ft Walton Beach, FL.
               </h1>
               <TypingAnimation extraClassName={"h-subtitle"} />
               <span className="typed-subtitle" />

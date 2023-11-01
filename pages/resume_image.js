@@ -2,7 +2,6 @@ import About from "../src/components/About";
 import CustomText from "../src/components/CustomText";
 import Interests from "../src/components/Interests";
 import { ImagePageBanner } from "../src/components/PageBanner";
-import Pricing from "../src/components/Pricing";
 import ResumeSection from "../src/components/ResumeSection";
 import Service from "../src/components/Service";
 import {
