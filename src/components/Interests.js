@@ -26,7 +26,7 @@ const Interests = () => {
               </div>
               <div className="name">Research</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Exploring new ideas and knowledge through research is not just a hobby; its a passion that fuels my curiosity
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Interests = () => {
               </div>
               <div className="name">Hiking</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Hiking isn't just a hobby; its a journey that takes me to new heights and lets me explore the beauty of the natural world
               </div>
             </div>
           </div>
