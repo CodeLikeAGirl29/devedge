@@ -96,7 +96,7 @@ const Blog = () => {
                     <div className="date">
                       Feb 2, 2023
                     </div>
-                    <Link href="/blog_post" className="name">Frontend Developer's Handbook</Link>
+                    <Link href="/blog_post" className="name">Frontend Developer&apos;s Handbook</Link>
                     <div className="single-post-text">
                       <p>Here, I present the ultimate handbook for frontend developers, offering a treasure trove of insights, tips, and resources to empower you in your web development journey. Whether you&apos;re a seasoned pro or just starting, this comprehensive guide is a valuable resource to navigate the ever-evolving world of frontend development.</p>
 
