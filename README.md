@@ -1,6 +1,8 @@
 
 # DevEdge
 
+> Live link can be found [here](https://devedge.vercel.app/)
+
 Built with:
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
