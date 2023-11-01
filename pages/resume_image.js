@@ -1,5 +1,4 @@
 import About from "../src/components/About";
-import Clients from "../src/components/Clients";
 import CustomText from "../src/components/CustomText";
 import Interests from "../src/components/Interests";
 import { ImagePageBanner } from "../src/components/PageBanner";

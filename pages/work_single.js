@@ -3,12 +3,12 @@ import SingleBlog from "../src/components/SingleBlog";
 import Layout from "../src/layout/Layout";
 const WorkSingle = () => {
   const typingAnimation = [
-    `<span class="typed-bread"> <a href="#">Home</a> / <a href="#">Works</a> / Shot in Iceland </span>`,
+    `<span class="typed-bread"> <a href="#">Home</a> / <a href="#">Projects</a> / Coding </span>`,
   ];
   return (
     <Layout>
       <DefaultPageBanner
-        pageName={"Shot in Iceland"}
+        pageName={"Frontend Coding"}
         typingData={typingAnimation}
       />
       <SingleBlog />

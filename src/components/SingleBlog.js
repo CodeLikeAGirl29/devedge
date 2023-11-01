@@ -13,11 +13,7 @@ const SingleBlog = () => {
               {/* text */}
               <div className="single-post-text">
                 <p>
-                  Now there is more fashion. There is no so-called trends. Now
-                  chase after anything not necessary — nor for fashionable color
-                  nor the shape, nor for style. Think about the content that you
-                  want to invest in a created object, and only then will form.
-                  The thing is your spirit. A spirit unlike forms hard copy.
+                  Blogging is a fantastic way to share your thoughts, insights, and creativity with the world. Whether you're a seasoned blogger or just starting, it's essential to create a visually appealing and user-friendly blog. In this tutorial, we'll guide you through the process of creating and styling a stunning HTML/CSS blog. With a little HTML and CSS knowledge, you can craft a personalized and beautiful online space that reflects your unique style.
                 </p>
                 <p>
                   Here choose yourself like that, without any looking back, do
@@ -35,18 +31,18 @@ const SingleBlog = () => {
                 {/* gallery */}
                 <div className="gallery-item">
                   <p>
-                    <a href="images/work1.jpg">
-                      <img src="images/work1.jpg" alt="" />
+                    <a href="images/work1.png">
+                      <img src="images/work1.png" alt="" />
                     </a>
                   </p>
                   <p>
-                    <a href="images/work2.jpg">
-                      <img src="images/work2.jpg" alt="" />
+                    <a href="images/work2.png">
+                      <img src="images/work2.png" alt="" />
                     </a>
                   </p>
                   <p>
-                    <a href="images/work3.jpg">
-                      <img src="images/work3.jpg" alt="" />
+                    <a href="images/work3.png">
+                      <img src="images/work3.png" alt="" />
                     </a>
                   </p>
                 </div>
@@ -60,22 +56,20 @@ const SingleBlog = () => {
               {/* details */}
               <ul className="details-list">
                 <li>
-                  <strong>Categories:</strong> Gallery
+                  <strong>Categories:</strong> Design Coding
                 </li>
                 <li>
-                  <strong>Date:</strong> 10 July 2019
+                  <strong>Date:</strong> 10 July 2023
                 </li>
-                <li>
-                  <strong>Client:</strong> Envato
-                </li>
+
                 <li>
                   <strong>Live Preview:</strong>{" "}
                   <a
-                    href="https://google.com/"
+                    href="https://codelikeagirl29.github.io/blog/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    www.envato.com
+                    www.github.com/codelikeagirl29/blog
                   </a>
                 </li>
               </ul>

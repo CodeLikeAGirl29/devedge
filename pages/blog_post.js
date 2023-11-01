@@ -24,7 +24,7 @@ const BlogPost = () => {
             <div className="content-box">
 
               <div className="single-post-text">
-                <h1 className="heading">Frontend Developer's Handbook</h1>
+                <h1 className="heading">Frontend Developers Handbook</h1>
                 <p>   We should pause for a moment to clarify the differences between a front end developer, back end developer, and full stack developer. Let’s put this in simple terms: a front end developer is responsible for the parts of an
                   app or website that users see and interact with. A back end developer takes care of the “behind the scenes” matters such as infrastructure and databases. The full-stack developer is a mixture of both, a jack of all trades
                   that can handle the whole design process from the beginning to the end.</p>

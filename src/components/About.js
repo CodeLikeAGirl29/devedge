@@ -9,7 +9,7 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello! I’m Lindsey. I've always been passionate about creating things and solving complex problems. When I discovered I could do both on the web, I was hooked. I've made websites for friends and family, and I even freelanced for a while. Now, I'm looking for a full-time role where I can really sink my teeth in and make an impact.
+            Hello! Im Lindsey. I have always been passionate about creating things and solving complex problems. When I discovered I could do both on the web, I was hooked. I have made websites for friends and family, and I even freelanced for a while. Now, I am looking for a full-time role where I can really sink my teeth in and make an impact.
           </p>
           <div className="info-list">
             <ul>
