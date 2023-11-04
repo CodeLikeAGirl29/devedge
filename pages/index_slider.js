@@ -4,10 +4,10 @@ import SwiperCore, {
   Grid,
   Navigation,
   Pagination,
-} from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import TypingAnimation from "../src/components/TypingAnimation";
-import Layout from "../src/layout/Layout";
+} from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import TypingAnimation from '../src/components/TypingAnimation';
+import Layout from '../src/layout/Layout';
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
 
 const IndexSlider = () => {
@@ -15,7 +15,7 @@ const IndexSlider = () => {
     init: false,
     loop: false,
     spaceBetween: 0,
-    effect: "fade",
+    effect: 'fade',
     slidesPerView: 1,
     simulateTouch: false,
     autoplay: {
@@ -29,13 +29,13 @@ const IndexSlider = () => {
       var index = swiperCore.realIndex;
       var total = swiperCore.slides.length;
       const cursor = document.querySelectorAll(
-        ".started-carousel .swiper-slide"
+        '.started-carousel .swiper-slide',
       );
       cursor.forEach((element, i) => {
-        if ((index - 1) >= i) {
-          element.classList.add("swiper-clip-active");
+        if (index - 1 >= i) {
+          element.classList.add('swiper-clip-active');
         } else {
-          element.classList.remove("swiper-clip-active");
+          element.classList.remove('swiper-clip-active');
         }
       });
       cursor.forEach((element, i) => {
@@ -46,41 +46,41 @@ const IndexSlider = () => {
   };
   return (
     <Layout>
-      <div className="section started" id="section-started">
+      <div className='section started' id='section-started'>
         {/* background */}
-        <div className="video-bg">
-          <div className="video-bg-mask" />
-          <div className="video-bg-texture" id="grained_container" />
+        <div className='video-bg'>
+          <div className='video-bg-mask' />
+          <div className='video-bg-texture' id='grained_container' />
           {/* slider */}
-          <div className="started-carousel">
-            <Swiper {...props} className="swiper-container">
-              <SwiperSlide className="swiper-slide swiper-clip-active">
+          <div className='started-carousel'>
+            <Swiper {...props} className='swiper-container'>
+              <SwiperSlide className='swiper-slide swiper-clip-active'>
                 <div
-                  className="main-img"
-                  style={{ backgroundImage: "url(images/started_image.jpg)" }}
+                  className='main-img'
+                  style={{ backgroundImage: 'url(images/started_image.jpg)' }}
                 />
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              <SwiperSlide className='swiper-slide'>
                 <div
-                  className="main-img"
+                  className='main-img'
                   style={{
-                    backgroundImage: "url(images/started_image2.jpg)",
+                    backgroundImage: 'url(images/started_image2.jpg)',
                   }}
                 />
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              <SwiperSlide className='swiper-slide'>
                 <div
-                  className="main-img"
+                  className='main-img'
                   style={{
-                    backgroundImage: "url(images/started_image3.jpg)",
+                    backgroundImage: 'url(images/started_image3.jpg)',
                   }}
                 />
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              <SwiperSlide className='swiper-slide'>
                 <div
-                  className="main-img"
+                  className='main-img'
                   style={{
-                    backgroundImage: "url(images/started_image4.jpg)",
+                    backgroundImage: 'url(images/started_image4.jpg)',
                   }}
                 />
               </SwiperSlide>
@@ -88,15 +88,15 @@ const IndexSlider = () => {
           </div>
         </div>
         {/* started content */}
-        <div className="centrize full-width">
-          <div className="vertical-center">
-            <div className="started-content">
-              <h1 className="h-title">
-                Hello, I&apos;m <strong>Lindsey Howard</strong>, a
-                Front-end Developer based in Ft Walton Beach, FL.
+        <div className='centrize full-width'>
+          <div className='vertical-center'>
+            <div className='started-content'>
+              <h1 className='h-title'>
+                Hello, I&apos;m <strong>Lindsey Howard</strong>, a Front-end
+                Developer based in Ft Walton Beach, FL.
               </h1>
-              <TypingAnimation extraClassName={"h-subtitle"} />
-              <span className="typed-subtitle" />
+              <TypingAnimation extraClassName={'h-subtitle'} />
+              <span className='typed-subtitle' />
             </div>
           </div>
         </div>

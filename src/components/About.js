@@ -1,17 +1,22 @@
 const About = () => {
   return (
-    <div className="section about" id="next_section">
-      <div className="content content-box">
+    <div className='section about' id='next_section'>
+      <div className='content content-box'>
         {/* image */}
-        <div className="image">
-          <img src="images/avatar-img.png" alt="" />
+        <div className='image'>
+          <img src='images/avatar-img.png' alt='' />
         </div>
         {/* desc */}
-        <div className="desc">
+        <div className='desc'>
           <p>
-            Hello! Im Lindsey. I have always been passionate about creating things and solving complex problems. When I discovered I could do both on the web, I was hooked. I have made websites for friends and family, and I even freelanced for a while. Now, I am looking for a full-time role where I can really sink my teeth in and make an impact.
+            Hello! Im Lindsey. I have always been passionate about creating
+            things and solving complex problems. When I discovered I could do
+            both on the web, I was hooked. I have made websites for friends and
+            family, and I even freelanced for a while. Now, I am looking for a
+            full-time role where I can really sink my teeth in and make an
+            impact.
           </p>
-          <div className="info-list">
+          <div className='info-list'>
             <ul>
               <li>
                 <strong>Age:</strong> 32
@@ -33,14 +38,14 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="bts">
-            <a href="#" className="btn hover-animated">
-              <span className="circle" />
-              <span className="lnk">Download CV</span>
+          <div className='bts'>
+            <a href='#' className='btn hover-animated'>
+              <span className='circle' />
+              <span className='lnk'>Download CV</span>
             </a>
           </div>
         </div>
-        <div className="clear" />
+        <div className='clear' />
       </div>
     </div>
   );

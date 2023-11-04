@@ -1,6 +1,6 @@
-import ContactSection from "../src/components/ContactSection";
-import { MapBanner } from "../src/components/PageBanner";
-import Layout from "../src/layout/Layout";
+import ContactSection from '../src/components/ContactSection';
+import { MapBanner } from '../src/components/PageBanner';
+import Layout from '../src/layout/Layout';
 
 const ContactsMap = () => {
   const typingAnimation = [
@@ -8,7 +8,7 @@ const ContactsMap = () => {
   ];
   return (
     <Layout>
-      <MapBanner pageName={"Contact"} typingData={typingAnimation} />
+      <MapBanner pageName={'Contact'} typingData={typingAnimation} />
       <ContactSection />
     </Layout>
   );

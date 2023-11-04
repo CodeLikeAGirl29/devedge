@@ -1,6 +1,6 @@
-import { ImagePageBanner } from "../src/components/PageBanner";
-import SingleBlog from "../src/components/SingleBlog";
-import Layout from "../src/layout/Layout";
+import { ImagePageBanner } from '../src/components/PageBanner';
+import SingleBlog from '../src/components/SingleBlog';
+import Layout from '../src/layout/Layout';
 
 const WorkSingleImg = () => {
   const typingAnimation = [
@@ -9,9 +9,9 @@ const WorkSingleImg = () => {
   return (
     <Layout>
       <ImagePageBanner
-        pageName={"Frontend Coding"}
+        pageName={'Frontend Coding'}
         typingData={typingAnimation}
-        bannerImg="images/works_single.png"
+        bannerImg='images/works_single.png'
       />
       <SingleBlog />
     </Layout>
