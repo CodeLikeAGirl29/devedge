@@ -177,7 +177,6 @@
   margin-left: 5px;
   position: relative;
   top: 0;
-  display: inline-block;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 0.8em;
@@ -581,7 +580,7 @@
   }
 
   .section .title {
-    margin: 0 0 30px 0;
+    margin: 0 0 30px;
   }
 }
 
@@ -1297,7 +1296,7 @@
   display: inline-block;
   vertical-align: top;
   width: 48%;
-  margin: 0 0 6px 0;
+  margin: 0 0 6px;
 }
 
 .info-list ul li strong {
@@ -1328,7 +1327,7 @@
 /* section about mobile */
 @media (max-width: 720px) {
   .section.about .image {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px;
     float: none;
     width: 100px;
     text-align: center;
@@ -1359,7 +1358,7 @@
 
 .resume-items .resume-item {
   position: relative;
-  margin: 70px 0 0 0;
+  margin: 70px 0 0;
 }
 
 .resume-items .resume-item:first-child {
@@ -1368,14 +1367,14 @@
 
 .resume-items .resume-item .date {
   position: relative;
-  margin: 0 0 5px 0;
+  margin: 0 0 5px;
   display: inline-block;
   font-size: 12px;
   color: #999;
 }
 
 .resume-items .resume-item .name {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   color: #eee;
   font-weight: 500;
 }
@@ -1396,7 +1395,7 @@
   }
 
   .resume-items .resume-item {
-    margin: 40px 0 0 0;
+    margin: 40px 0 0;
   }
 }
 
@@ -1414,7 +1413,7 @@
 
 /* - Skills */
 .skills ul {
-  margin: -35px 0 0 0;
+  margin: -35px 0 0;
   padding: 0;
   list-style: none;
   font-size: 0;
@@ -1422,7 +1421,7 @@
 
 .skills ul li {
   position: relative;
-  padding: 35px 0 0 0;
+  padding: 35px 0 0;
 }
 
 .skills ul li:after {
@@ -1434,7 +1433,7 @@
 }
 
 .skills ul li .name {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   position: relative;
   font-size: 16px;
   color: #eee;
@@ -1494,7 +1493,6 @@
   position: absolute;
   left: 0;
   top: 3px;
-  display: inline-block;
   color: #87c1ff;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1571,7 +1569,7 @@
 
 .skills.circles ul li {
   margin-top: 35px;
-  padding: 0 0 60px 0;
+  padding: 0 0 60px;
   display: inline-block;
   vertical-align: top;
   width: 25%;
@@ -1620,7 +1618,6 @@
 
 .skills.circles ul li .progress span {
   position: absolute;
-  width: 100%;
   left: 0;
   top: 0;
   width: 100%;
@@ -2586,11 +2583,11 @@
 /* section skills mobile */
 @media (max-width: 720px) {
   .skills ul {
-    margin: -20px 0 0 0;
+    margin: -20px 0 0;
   }
 
   .skills ul li {
-    padding: 20px 0 0 0;
+    padding: 20px 0 0;
   }
 
   .skills.dotted ul li {
@@ -2613,12 +2610,12 @@
 
 /* - Clients */
 .clients-items {
-  margin: -35px -35px 0 -35px;
+  margin: -35px -35px 0;
   font-size: 0;
 }
 
 .clients-items .clients-col {
-  padding: 35px 35px 0 35px;
+  padding: 35px 35px 0;
   display: inline-block;
   vertical-align: top;
   width: 25%;
@@ -2654,11 +2651,11 @@
 /* section clients mobile */
 @media (max-width: 720px) {
   .clients-items {
-    margin: -20px -20px 0 -20px;
+    margin: -20px -20px 0;
   }
 
   .clients-items .clients-col {
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 0;
     width: 50%;
   }
 }
@@ -2784,7 +2781,7 @@
 .box-items .box-item {
   width: 50%;
   margin: 0;
-  padding: 0 50px 100px 50px;
+  padding: 0 50px 100px;
   position: relative;
   text-align: center;
   font-size: 13px;
@@ -2941,7 +2938,7 @@
 
   .box-items .box-item {
     width: 50%;
-    padding: 0 20px 40px 20px;
+    padding: 0 20px 40px;
   }
 
   .portfolio-cols {
@@ -2957,7 +2954,7 @@
   }
 
   .details-col {
-    padding: 40px 0 0 0;
+    padding: 40px 0 0;
     width: 100%;
   }
 
@@ -3156,13 +3153,13 @@
 }
 
 .team-item .name {
-  margin: 30px 0 5px 0;
+  margin: 30px 0 5px;
   color: #eee;
   font-weight: 500;
 }
 
 .team-item .category {
-  margin: 0 0 5px 0;
+  margin: 0 0 5px;
   position: relative;
   display: inline-block;
   color: #999;
@@ -3273,7 +3270,7 @@
 }
 
 .reviews-item .name {
-  margin: 0 0 5px 0;
+  margin: 0 0 5px;
   color: #eee;
   font-weight: 500;
 }
@@ -3423,7 +3420,7 @@ object {
 
 .single-post-text figure,
 .comment-text figure {
-  margin: 0 0 30px 0;
+  margin: 0 0 30px;
   max-width: 100%;
 }
 
@@ -3495,7 +3492,7 @@ object {
 }
 
 .post-text-bottom {
-  padding: 25px 0 10px 0;
+  padding: 25px 0 10px;
 }
 
 .post-text-bottom .share-btn {
@@ -3575,7 +3572,6 @@ object {
 .page-numbers.next:after,
 .nav-links .nav-previous a:before,
 .nav-links .nav-next a:after {
-  content: "";
   margin-left: 15px;
   content: "\f30b";
   display: inline-block;
@@ -3673,7 +3669,7 @@ object {
 
 .footer p,
 .footer .copy {
-  margin: 2px 0 0 0;
+  margin: 2px 0 0;
   font-size: 14px;
   line-height: 2;
   color: #bbb;
@@ -3812,7 +3808,7 @@ object {
   }
 
   .home .footer .soc a {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     display: block;
   }
 
@@ -3879,14 +3875,14 @@ object {
 }
 
 .popup-box .category {
-  margin: 0 0 5px 0;
+  margin: 0 0 5px;
   display: block;
   font-size: 14px;
   color: #bbb;
 }
 
 .popup-box .desc h4 {
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
   display: block;
   font-size: 24px;
   font-weight: 600;
@@ -4171,7 +4167,7 @@ object {
 
 .blog-items .blog-item .category,
 .blog-items .blog-item .date {
-  margin: 0 0 5px 0;
+  margin: 0 0 5px;
   font-size: 14px;
   color: #bbb;
   opacity: 0.65;
@@ -4271,7 +4267,6 @@ object {
 .page-numbers.next:after,
 .nav-links .nav-previous a:before,
 .nav-links .nav-next a:after {
-  content: "";
   margin-left: 15px;
   content: "\f30b";
   display: inline-block;
