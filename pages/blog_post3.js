@@ -7,14 +7,14 @@ import Image from 'next/image'
 
 const BlogPost = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Guides</a> / Feb 02, 2023</span>",
+    "<span class='typed-bread'><a href='#'>Frontend</a> / Aug 08, 2023</span>",
   ];
   return (
     <Layout>
       <ImagePageBanner
         pageName={""}
         typingData={typingAnimation}
-        bannerImg="images/blog/blog-7.png"
+        bannerImg="images/blog/blog-9.png"
       />
 
       <div className="section blog">
@@ -24,32 +24,30 @@ const BlogPost = () => {
             <div className="content-box">
 
               <div className="single-post-text">
-                <h1 className="heading">Frontend Developers Handbook</h1>
-                <p>We should pause for a moment to clarify the differences between a front end developer, back end developer, and full stack developer. Let&apos;s put this in simple terms: a front end developer is responsible for the parts of an
-                  app or website that users see and interact with. A back end developer takes care of the &apos;behind the scenes&apos; matters such as infrastructure and databases. The full-stack developer is a mixture of both, a jack of all trades
-                  that can handle the whole design process from the beginning to the end.</p>
+                <h1 className="heading">Why I Prefer Gatsby.js</h1>
+                <p>Gatsby.js is a modern website and web application framework built on React, GraphQL, and webpack. It&apos;s known for its speed, performance, and ease of use. Gatsby combines the benefits of static site generation with the dynamic capabilities of a JavaScript framework.</p>
                 <p>Note that there&apos;s a trend these days where the line between the front end and back end development has been blurring. Primarily since many of the tasks that fall in the domain of back end developers are being increasingly
                   handled by the front end developers.<br /></p>
                 <p> As a final aside, there are also full-stack engineers. They are full-stack developers who have project management experience, adept at disciplines in the configuring, managing, and maintaining computer networks and
                   systems.<br /></p>
                 <blockquote>
-                  <p>Great web design without functionality is like a sports car with no engine.</p>
+                  <p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
                 </blockquote>
                 <p>Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing <a href="#">link</a> sufficient everything men him admiration unpleasing .</p>
                 <Image
-                  src="/images/blog/blogdetail-1.png"
+                  src="/images/blog/blogdetail-3.png"
                   width={500}
                   height={500}
                   alt="Picture of an office monitor"
                 />
-                <p>Reasons to become a Frontend Developer...</p>
-                <ul>
-                  <li>You&apos;ll be in high demand.</li>
-                  <li>You can work anywhere in the world.</li>
-                  <li>You won&apos;t get bored working on a variety of projects.</li>
-                  <li>Excellent salary.</li>
-                  <li>You wont need a college degree.</li>
-                </ul>
+                <h2 className="heading">Why You Should Choose Gatsby.js too?</h2>
+                <ol>
+                  <li><em>Blazing fast performance</em>: Gatsby generates static HTML files, making your website load in a flash. This leads to a better user experience and improved search engine ranking.</li>
+                  <li><em>Developer-Friendly</em>: Gatsby offers a developer-friendly environment with hot-reloading, easy-to-use APIs, and a vast plugin ecosystem.</li>
+                  <li><em>SEO-Optimized</em>: Gatsby is designed with SEO in mind. It generates SEO-friendly HTML pages and provides tools for optimizing your website's search engine ranking.</li>
+                  <li><em>Data Integration</em>: It seamlessly integrates with various data sources, including CMSs, APIs, and databases.</li>
+                  <li><em>Rich Plugin Ecosystem</em>: Gatsby's plugin system allows you to add various functionalities to your site, from image optimization to analytics.</li>
+                </ol>
                 <p>Programming languages commonly used for the Frontend:</p>
                 <Image
                   src="/images/html5-original.svg"
