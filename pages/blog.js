@@ -36,9 +36,9 @@ const Blog = () => {
                   </div>
                   <div className="desc">
                     <div className="date">
-                      Oct 04, 2023
+                      Oct 26, 2023
                     </div>
-                    <Link href="/blog_post2" className="name">Creating a Blog Post</Link>
+                    <Link href="/blog_post" className="name">Creating a Blog Post</Link>
                     <div className="single-post-text">
                       <p>In today&apos;s digital age, creating a blog site is a fantastic way to share your thoughts, insights, and passions with the world. While there are plenty of platforms available for this purpose, building your blog site from scratch with JavaScript, HTML, and CSS provides a unique opportunity for creative control and customization. In this guide, we&apos;ll walk you through the steps to create your blog site using these fundamental web technologies.</p>
 
@@ -67,7 +67,7 @@ const Blog = () => {
                     <div className="date">
                       08 August 2022
                     </div>
-                    <Link href="/blog_post3" className="name">Gatsby 101</Link>
+                    <Link href="/blog_post" className="name">Gatsby 101</Link>
                     <div className="single-post-text">
                       <p>Discover how Gatsby.js, built on React and GraphQL, offers lightning-fast performance and improved SEO by generating static HTML files for your website. We&apos;ll cover everything from installing Gatsby to creating a simple blog site, and we&apos;ll also explore its rich ecosystem of plugins and themes, making it easier than ever to build interactive, content-rich sites. </p>
 
@@ -94,7 +94,7 @@ const Blog = () => {
                   </div>
                   <div className="desc">
                     <div className="date">
-                      Feb 02, 2023
+                      Feb 2, 2023
                     </div>
                     <Link href="/blog_post" className="name">Frontend Developer&apos;s Handbook</Link>
                     <div className="single-post-text">
@@ -127,7 +127,8 @@ const Blog = () => {
                     </div>
                     <Link href="/blog_post" className="name">Staying Productive</Link>
                     <div className="single-post-text">
-                      <p> It&apos;s tempting to look at highly productive people as machines (or wizards). But by studying how they work efficiently and overcome the challenges we all experience, it&apos;s possible to boost your own productivity as well. </p>
+                      <p> It&apos;s tempting to look at highly productive people as machines (or wizards). But by studying how they work efficiently and overcome the challenges we all experience, it&apos;s possible to boost your own productivity as
+                        well. </p>
 
                     </div>
                   </div>
@@ -185,14 +186,11 @@ const Blog = () => {
                 <ul>
 
                   <li>
-                    <a href="/blog_post">Frontend Dev Handbook</a>
+                    <a href="#">Frontend Dev Handbook</a>
                   </li>
 
                   <li>
-                    <a href="/blog_post2">Creating a Blog</a>
-                  </li>
-                  <li>
-                    <a href="/blog_post3">Gatsby.js 101</a>
+                    <a href="#">Gatsby.js 101</a>
                   </li>
 
                   <li>
@@ -218,8 +216,6 @@ const Blog = () => {
 
                   <li><a href="#">Guides</a> <small>(1)</small></li>
 
-                  <li><a href="#">Blogging</a> <small>(1)</small></li>
-
                 </ul>
               </section>
 
@@ -232,7 +228,6 @@ const Blog = () => {
                   <a href="#">code</a>
                   <a href="#">guides</a>
                   <a href="#">design</a>
-                  <a href="#">blogging</a>
                 </div>
 
               </section>

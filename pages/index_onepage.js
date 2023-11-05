@@ -155,7 +155,7 @@ const IndexOnePage = () => {
                   <div className="icon">
                     <FontAwesomeIcon
                       icon={faCode}
-                      style={{ color: "#f88379" }}
+                      style={{ color: "#87c1ff" }}
                     />
                   </div>
                   <div className="name">Web Development</div>
@@ -180,7 +180,7 @@ const IndexOnePage = () => {
                   <div className="icon">
                     <FontAwesomeIcon
                       icon={faGear}
-                      style={{ color: "#f88379" }}
+                      style={{ color: "#87c1ff" }}
                     />
                   </div>
                   <div className="name">Web Maintenance</div>
@@ -194,7 +194,7 @@ const IndexOnePage = () => {
                   <div className="icon">
                     <FontAwesomeIcon
                       icon={faChartLine}
-                      style={{ color: "#f88379" }}
+                      style={{ color: "#87c1ff" }}
                     />
                   </div>
                   <div className="name">Performance Optimization</div>
@@ -219,7 +219,7 @@ const IndexOnePage = () => {
                   <div className="icon">
                     <FontAwesomeIcon
                       icon={faDatabase}
-                      style={{ color: "#f88379" }}
+                      style={{ color: "#87c1ff" }}
                     />
                   </div>
                   <div className="name">CMS Integration</div>

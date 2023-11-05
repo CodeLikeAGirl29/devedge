@@ -86,6 +86,16 @@ const Menu = () => (
 
                   </Link>
                 </li>
+                <li className="menu-item">
+                  <Link href="/index_video">
+
+                    <span className="mask-lnk">Home Video</span>
+                    <span className="mask-lnk mask-lnk-hover">
+                      Home Video
+                    </span>
+
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">

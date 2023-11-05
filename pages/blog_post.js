@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const BlogPost = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Guides</a> / Feb 02, 2023</span>",
+    "<span class='typed-bread'><a href='#'>Design</a> / 20 July 2022</span>",
   ];
   return (
     <Layout>
