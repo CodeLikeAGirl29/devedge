@@ -22,7 +22,7 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-chart-line" />
+                <span className="fas fa-screwdriver-wrench" />
               </div>
               <div className="name">Maintenence</div>
               <div className="text">
@@ -66,7 +66,7 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-chart-simple" />
+                <span className="fas fa-chart-line" />
               </div>
               <div className="name">Performance</div>
               <div className="text">

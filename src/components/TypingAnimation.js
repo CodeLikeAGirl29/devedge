@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+
 const TypingAnimation = ({ typingData, extraClassName }) => {
   // Create Ref element.
   const el = useRef(null);
@@ -13,9 +14,9 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
           "Creativity<strong> meets</strong> code.",
           "Pixel <strong>Perfect</strong> Precision.",
         ], // Strings to display
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 200,
+      typeSpeed: 60,
+      backSpeed: 60,
+      backDelay: 300,
       smartBackspace: true,
       loop: true,
       showCursor: true,

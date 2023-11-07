@@ -2,7 +2,6 @@ import About from "../src/components/About";
 import CustomText from "../src/components/CustomText";
 import Interests from "../src/components/Interests";
 import { CreativePageBanner } from "../src/components/PageBanner";
-import Pricing from "../src/components/Pricing";
 import ResumeSection from "../src/components/ResumeSection";
 import Service from "../src/components/Service";
 import {
@@ -27,8 +26,6 @@ const ResumeCreative = () => {
       <About />
       {/* Section Service */}
       <Service />
-      {/* Section Pricing */}
-      <Pricing />
       {/* Section Resume */}
       <ResumeSection />
       {/* Section Design Skills */}

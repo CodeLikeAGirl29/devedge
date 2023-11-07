@@ -1,5 +1,6 @@
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
+
 const IndexPersonal = () => {
   return (
     <Layout>
@@ -10,7 +11,7 @@ const IndexPersonal = () => {
           <div className="video-bg-texture" id="grained_container" />
         </div>
         {/* started content */}
-        <div className="centrize full-width">
+        <div className="centralize full-width">
           <div className="vertical-center">
             <div className="started-content">
               <div

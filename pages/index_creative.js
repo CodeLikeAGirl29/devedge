@@ -17,7 +17,7 @@ const IndexCreative = () => {
           <div className="video-bg-texture" id="grained_container" />
         </div>
         {/* started content */}
-        <div className="centrize full-width">
+        <div className="centralize full-width">
           <div className="vertical-center">
             <div className="started-content">
               <h1 className="h-title">

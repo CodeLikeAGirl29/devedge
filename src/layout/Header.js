@@ -99,44 +99,12 @@ const Menu = () => (
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">
-              <Link href="/resume">
+              <Link href="/resume_creative">
 
                 <span className="mask-lnk">Resume</span>
                 <span className="mask-lnk mask-lnk-hover">Resume</span>
 
               </Link>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <Link href="/resume">
-
-                    <span className="mask-lnk">Resume Default</span>
-                    <span className="mask-lnk mask-lnk-hover">
-                      Resume Default
-                    </span>
-
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/resume_image">
-
-                    <span className="mask-lnk">Resume Image</span>
-                    <span className="mask-lnk mask-lnk-hover">
-                      Resume Image
-                    </span>
-
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/resume_creative">
-
-                    <span className="mask-lnk">Resume Creative</span>
-                    <span className="mask-lnk mask-lnk-hover">
-                      Resume Creative
-                    </span>
-
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/works">

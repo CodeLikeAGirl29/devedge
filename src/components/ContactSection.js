@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+
 const ContactSection = () => {
   return (
     <Fragment>
@@ -7,7 +8,7 @@ const ContactSection = () => {
         <div className="content">
           {/* title */}
           <div className="title">
-            <div className="title_inner">Contacts Info</div>
+            <div className="title_inner">Contact Me</div>
           </div>
           {/* contacts items */}
           <div className="service-items">

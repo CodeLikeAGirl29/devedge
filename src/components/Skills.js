@@ -13,37 +13,38 @@ export const DesignSkills = () => {
         <div className="skills percent content-box">
           <ul>
             <li>
-              <div className="name">Web Design</div>
-                  <div className="progress ">
-                    <div className="percentage" style={{ width: "90%" }}>
-                      <span className="percent">90%</span>
+              <div className="name">Graphic Design</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "90%" }}>
+                  <span className="percent">90%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">React</div>
-                  <div className="progress ">
-                    <div className="percentage" style={{ width: "80%" }}>
-                      <span className="percent">80%</span>
+              <div className="name">JavaScript</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
             <li>
-             <div className="name">Node.js & Express</div>
-                  <div className="progress ">
-                    <div className="percentage" style={{ width: "75%" }}>
-                      <span className="percent">75%</span>
+              <div className="name">Responsive</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "80%" }}>
+                  <span className="percent">80%</span>
                 </div>
               </div>
             </li>
             <li>
-                <div className="name">JavaScript</div>
-                  <div className="progress ">
-                    <div className="percentage" style={{ width: "85%" }}>
-                      <span className="percent">85%</span>
+              <div className="name">RESTful APIs</div>
+              <div className="progress ">
+                <div className="percentage" style={{ width: "75%" }}>
+                  <span className="percent">75%</span>
                 </div>
               </div>
             </li>
+
           </ul>
         </div>
       </div>
@@ -67,34 +68,34 @@ export const LanguagesSkills = () => {
         <div className="skills percent content-box">
           <ul>
             <li>
-           <div className="name">Problem-solving</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "90%" }}>
-                      <span className="percent">90%</span>
+              <div className="name">Problem-solving</div>
+              <div className="progress">
+                <div className="percentage" style={{ width: "95%" }}>
+                  <span className="percent">95%</span>
                 </div>
               </div>
             </li>
             <li>
-                    <div className="name">Teamwork</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "80%" }}>
-                      <span className="percent">80%</span>
+              <div className="name">Communication</div>
+              <div className="progress">
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
             <li>
-                    <div className="name">Freelancing</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "65%" }}>
-                      <span className="percent">65%</span>
+              <div className="name">Sales</div>
+              <div className="progress">
+                <div className="percentage" style={{ width: "85%" }}>
+                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
             <li>
-           <div className="name">Sales</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "85%" }}>
-                      <span className="percent">85%</span>
+              <div className="name">Freelancing</div>
+              <div className="progress">
+                <div className="percentage" style={{ width: "65%" }}>
+                  <span className="percent">65%</span>
                 </div>
               </div>
             </li>
@@ -118,13 +119,28 @@ export const CodingSkills = () => {
           <ul>
             <li>
               <div className="name">JavaScript</div>
-              <div className="progress p90">
+              <div className="progress p85">
                 {" "}
                 {/* p90 = 90% circle fill color */}
                 <div className="percentage">
-                  <span className="percent">90%</span>
+                  <span className="percent">85%</span>
                 </div>
-                <span>90%</span>
+                <span>85%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="name">NodeJS / Express</div>
+              <div className="progress p80">
+                {" "}
+                {/* p85 = 85% circle fill color */}
+                <div className="percentage">
+                  <span className="percent">80%</span>
+                </div>
+                <span>80%</span>
                 <div className="slice">
                   <div className="bar"></div>
                   <div className="fill"></div>
@@ -147,23 +163,8 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">NodeJS / Express</div>
-              <div className="progress p85">
-                {" "}
-                {/* p85 = 85% circle fill color */}
-                <div className="percentage">
-                  <span className="percent">85%</span>
-                </div>
-                <span>85%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
               <div className="name">PostgreSQL</div>
-              <div className="progress p95">
+              <div className="progress p75">
                 {" "}
                 {/* p95 = 95% circle fill color */}
                 <div className="percentage">

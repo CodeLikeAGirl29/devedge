@@ -145,9 +145,9 @@ const ItemIsotope = () => {
           {/* add class "animate-to-page" if need animated transition to page and delete target="_blank" rel="noreferrer" */}
           <div className="image">
             <a href="#gallery-1" className="has-popup-gallery hover-animated">
-              <img src="images/work1.png" className="wp-post-image" alt="" />
+              <img src="/images/work1.png" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-images" />
                     <span className="desc">
@@ -159,9 +159,9 @@ const ItemIsotope = () => {
               </span>
             </a>
             <div id="gallery-1" className="mfp-hide">
-              <a href="images/work1.png" />
+              <a href="/images/work1.png" />
               <a href="images/work5.png" />
-              <a href="images/work3.png" />
+              <a href="/images/work3.png" />
               <a href="images/work4.png" />
             </div>
           </div>
@@ -174,9 +174,9 @@ const ItemIsotope = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="images/work2.png" className="wp-post-image" alt="" />
+              <img src="/images/work2.png" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-link" />
                     <span className="desc">
@@ -197,7 +197,7 @@ const ItemIsotope = () => {
             >
               <img src="images/work2.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-design" />
                     <span className="desc">
@@ -218,7 +218,7 @@ const ItemIsotope = () => {
             >
               <img src="images/work4.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-image" />
                     <span className="desc">
@@ -239,7 +239,7 @@ const ItemIsotope = () => {
             >
               <img src="images/work7.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-image" />
                     <span className="desc">
@@ -260,7 +260,7 @@ const ItemIsotope = () => {
             >
               <img src="images/work6.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-frontend" />
                     <span className="desc">
@@ -278,7 +278,7 @@ const ItemIsotope = () => {
             <a href="#gallery-2" className="has-popup-gallery hover-animated">
               <img src="images/work5.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-images" />
                     <span className="desc">
@@ -302,7 +302,7 @@ const ItemIsotope = () => {
             <a href="#popup-1" className="has-popup-media hover-animated">
               <img src="images/work8.jpg" className="wp-post-image" alt="" />
               <span className="info circle">
-                <span className="centrize full-width">
+                <span className="centralize full-width">
                   <span className="vertical-center">
                     <span className="icon fas fa-plus" />
                     <span className="desc">

@@ -17,6 +17,15 @@ const ResumeSection = () => {
                   Elevate your online presence with a freelance web developer who brings your digital vision to life.
                 </div>
               </div>
+              <div className="resume-item content-box active">
+                <div className="date">2021 - Present</div>
+                <div className="name">
+                  JBL Coastal Painting - Painter
+                </div>
+                <div className="text">
+                  As a painter&apos;s assistant,  I find joy in transforming dull spaces into vibrant, welcoming environments. Whether it&apos;s prepping surfaces or adding that final brushstroke, I take pride in being an integral part of creating beautiful and inspiring interiors.
+                </div>
+              </div>
               <div className="resume-item content-box">
                 <div className="date">2016 - 2021</div>
                 <div className="name">

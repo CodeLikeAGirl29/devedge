@@ -13,11 +13,13 @@ import {
 import Team from "../src/components/Team";
 import Testimonials from "../src/components/Testimonials";
 import Layout from "../src/layout/Layout";
+
 /**
  * Renders the Resume component.
  *
  * @return {JSX.Element} The rendered Resume component.
  */
+
 const Resume = () => {
   const typingAnimation = [
     `<span class="typed-bread"> <a href="#">Home</a>  / Resume </span>`,

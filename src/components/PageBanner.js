@@ -17,7 +17,7 @@ const AnimationText = ({ typingData, extraClass }) => {
           ], // Strings to display
         typeSpeed: 100,
         backSpeed: 100,
-        backDelay: 200,
+        backDelay: 230,
         smartBackspace: true,
         loop: false,
         showCursor: true,
@@ -39,7 +39,7 @@ const AnimationText = ({ typingData, extraClass }) => {
 const BannerContent = ({ pageName, pageTitle, typingData, extraClass }) => {
   return (
     <Fragment>
-      <div className="centrize full-width">
+      <div className="centralize full-width">
         <div className="vertical-center">
           <div className="started-content">
             <h1 className="h-title">{pageTitle ? pageTitle : pageName}</h1>
@@ -47,7 +47,7 @@ const BannerContent = ({ pageName, pageTitle, typingData, extraClass }) => {
           </div>
         </div>
       </div>
-      {/* mosue button */}
+      {/* mouse button */}
       <a href="#next_section" className="mouse_btn">
         <span className="icon fas fa-chevron-down" />
       </a>
@@ -55,12 +55,7 @@ const BannerContent = ({ pageName, pageTitle, typingData, extraClass }) => {
   );
 };
 
-export const DefaultPageBanner = ({
-  pageName,
-  pageTitle,
-  typingData,
-  extraClass,
-}) => (
+export const DefaultPageBanner = ({ pageName, pageTitle, typingData }) => (
   <div className="section started section-title" id="section-started">
     {/* background */}
     <div className="video-bg">
@@ -159,7 +154,7 @@ export const MapBanner = ({ typingData, extraClass }) => {
         <div className="video-bg-texture" id="grained_container" />
       </div>
       {/* started content */}
-      <div className="centrize full-width">
+      <div className="centralize full-width">
         <div className="vertical-center">
           <div className="started-content">
             <h1 className="h-title">Contact</h1>
@@ -167,7 +162,7 @@ export const MapBanner = ({ typingData, extraClass }) => {
           </div>
         </div>
       </div>
-      {/* mosue button */}
+      {/* mouse button */}
       <a href="#next_section" className="mouse_btn">
         <span className="icon fas fa-chevron-down" />
       </a>
