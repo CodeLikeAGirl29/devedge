@@ -9,6 +9,7 @@
 
 /* - Theme Green */
 .cursor-follower {
+<<<<<<< HEAD
   background: #bbd1f3;
 }
 
@@ -18,10 +19,22 @@ a:hover {
 
 .ink {
   background: #bbd1f3;
+=======
+  background: #cbc3e3;
+}
+
+a:hover {
+  color: #cbc3e3;
+}
+
+.ink {
+  background: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 a.btn,
 .btn,
+<<<<<<< HEAD
 .single-post-text input[type="submit"] {
   color: #bbd1f3;
   border-color: #bbd1f3;
@@ -33,10 +46,24 @@ button:hover {
 
 .section.started .started-content .h-title strong {
   color: #bbd1f3;
+=======
+.single-post-text input[type='submit'] {
+  color: #cbc3e3;
+  border-color: #cbc3e3;
+}
+
+button:hover {
+  border-bottom-color: #cbc3e3;
+}
+
+.section.started .started-content .h-title strong {
+  color: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .section.started .started-content .h-subtitle strong,
 .section.started .started-content .typed-subtitle strong {
+<<<<<<< HEAD
   color: #bbd1f3;
 }
 
@@ -62,6 +89,33 @@ button:hover {
 
 .skills.dotted ul li .progress .da span {
   background: #bbd1f3;
+=======
+  color: #cbc3e3;
+}
+
+.section.started .mouse_btn {
+  color: #cbc3e3;
+}
+
+.info-list ul li strong {
+  color: #cbc3e3;
+}
+
+.resume-items .resume-item.active .date {
+  color: #cbc3e3;
+}
+
+.skills ul li .progress .percentage {
+  background: #cbc3e3;
+}
+
+.skills.list ul li .name:before {
+  color: #cbc3e3;
+}
+
+.skills.dotted ul li .progress .da span {
+  background: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .skills.circles .progress .bar,
@@ -115,6 +169,7 @@ button:hover {
 .skills.circles .progress.p98 .fill,
 .skills.circles .progress.p99 .fill,
 .skills.circles .progress.p100 .fill {
+<<<<<<< HEAD
   border-color: #bbd1f3;
 }
 
@@ -129,28 +184,61 @@ button:hover {
 .started-content .date {
   color: #bbd1f3;
   border-color: #bbd1f3;
+=======
+  border-color: #cbc3e3;
+}
+
+.service-items .service-item .icon {
+  color: #cbc3e3;
+}
+
+.section.works .filters label.glitch-effect {
+  color: #cbc3e3;
+}
+
+.started-content .date {
+  color: #cbc3e3;
+  border-color: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .single-post-text p a,
 .comment-text p a {
+<<<<<<< HEAD
   color: #bbd1f3;
 }
 
 blockquote {
   border-left-color: #bbd1f3;
+=======
+  color: #cbc3e3;
+}
+
+blockquote {
+  border-left-color: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .single-post-text ul > li:before,
 .comment-text ul > li:before {
+<<<<<<< HEAD
   background: #bbd1f3;
 }
 
 .post-text-bottom span.cat-links a {
   color: #bbd1f3;
+=======
+  background: #cbc3e3;
+}
+
+.post-text-bottom span.cat-links a {
+  color: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .post-text-bottom .tags-links a,
 .post-text-bottom .tags-links span {
+<<<<<<< HEAD
   color: #bbd1f3;
   border-color: #bbd1f3;
 }
@@ -170,4 +258,25 @@ blockquote {
 
 .pricing-item .feature-list ul li strong {
   background: #bbd1f3;
+=======
+  color: #cbc3e3;
+  border-color: #cbc3e3;
+}
+
+.content-sidebar .widget ul li a:hover {
+  color: #cbc3e3;
+}
+
+.content-sidebar .tagcloud a {
+  color: #cbc3e3;
+  border-color: #cbc3e3;
+}
+
+.pricing-item .icon {
+  color: #cbc3e3;
+}
+
+.pricing-item .feature-list ul li strong {
+  background: #cbc3e3;
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }

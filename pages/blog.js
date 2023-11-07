@@ -30,7 +30,11 @@ const Blog = () => {
                         alt='Blog screenshot'
                       />
                       <span className='info'>
+<<<<<<< HEAD
                         <span className='centralize full-width'>
+=======
+                        <span className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
                           <span className='vertical-center'>
                             <span className='icon fas fa-plus'></span>
                           </span>
@@ -72,7 +76,11 @@ const Blog = () => {
                         alt='Gatsby 101'
                       />
                       <span className='info'>
+<<<<<<< HEAD
                         <span className='centralize full-width'>
+=======
+                        <span className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
                           <span className='vertical-center'>
                             <span className='icon fas fa-plus'></span>
                           </span>
@@ -113,7 +121,11 @@ const Blog = () => {
                         alt='frontend dev handbook'
                       />
                       <span className='info'>
+<<<<<<< HEAD
                         <span className='centralize full-width'>
+=======
+                        <span className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
                           <span className='vertical-center'>
                             <span className='icon fas fa-plus'></span>
                           </span>
@@ -153,7 +165,11 @@ const Blog = () => {
                         alt='Stay Productive'
                       />
                       <span className='info'>
+<<<<<<< HEAD
                         <span className='centralize full-width'>
+=======
+                        <span className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
                           <span className='vertical-center'>
                             <span className='icon fas fa-plus'></span>
                           </span>
@@ -192,7 +208,11 @@ const Blog = () => {
                         alt='Styling with CSS'
                       />
                       <span className='info'>
+<<<<<<< HEAD
                         <span className='centralize full-width'>
+=======
+                        <span className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
                           <span className='vertical-center'>
                             <span className='icon fas fa-plus'></span>
                           </span>

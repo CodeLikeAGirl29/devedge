@@ -1,13 +1,13 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 const SingleBlog = () => {
   return (
-    <div className="section blog" id="next_section">
-      <div className="content content-box">
-        <div className="single-post-text">
+    <div className='section blog' id='next_section'>
+      <div className='content content-box'>
+        <div className='single-post-text'>
           {/* portfolio content */}
-          <div className="portfolio-info portfolio-cols">
-            <div className="description-col">
+          <div className='portfolio-info portfolio-cols'>
+            <div className='description-col'>
               {/* title */}
               <div className="title">
                 <div className="title_inner">My Development Process</div>
@@ -59,13 +59,13 @@ const SingleBlog = () => {
                 </div>
               </div>
             </div>
-            <div className="details-col">
+            <div className='details-col'>
               {/* title */}
-              <div className="title">
-                <div className="title_inner">Details</div>
+              <div className='title'>
+                <div className='title_inner'>Details</div>
               </div>
               {/* details */}
-              <ul className="details-list">
+              <ul className='details-list'>
                 <li>
                   <strong>Categories:</strong> Development
                 </li>
@@ -74,7 +74,7 @@ const SingleBlog = () => {
                 </li>
 
                 <li>
-                  <strong>Live Preview:</strong>{" "}
+                  <strong>Live Preview:</strong>{' '}
                   <a
                     href="https://lindseyk.dev"
                     target="_blank"
@@ -87,7 +87,7 @@ const SingleBlog = () => {
             </div>
           </div>
         </div>
-        <div className="clear" />
+        <div className='clear' />
       </div>
     </div >
   );

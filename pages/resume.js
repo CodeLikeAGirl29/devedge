@@ -1,9 +1,9 @@
-import About from "../src/components/About";
-import CustomText from "../src/components/CustomText";
-import Interests from "../src/components/Interests";
-import { DefaultPageBanner } from "../src/components/PageBanner";
-import ResumeSection from "../src/components/ResumeSection";
-import Service from "../src/components/Service";
+import About from '../src/components/About';
+import CustomText from '../src/components/CustomText';
+import Interests from '../src/components/Interests';
+import { DefaultPageBanner } from '../src/components/PageBanner';
+import ResumeSection from '../src/components/ResumeSection';
+import Service from '../src/components/Service';
 import {
   CodingSkills,
   DesignSkills,
@@ -27,7 +27,7 @@ const Resume = () => {
   return (
     <Layout>
       {/* Section Started */}
-      <DefaultPageBanner pageName={"Resume"} typingData={typingAnimation} />
+      <DefaultPageBanner pageName={'Resume'} typingData={typingAnimation} />
       {/* Section About */}
       <About />
       {/* Section Service */}

@@ -24,11 +24,11 @@ export const stickyNav = () => {
     const sticky = document.querySelector(".header");
     if (sticky) {
       if (offset > 100) {
-        sticky.classList.add("fixed");
-        document.querySelector("body").classList.remove("background-enabled");
+        sticky.classList.add('fixed');
+        document.querySelector('body').classList.remove('background-enabled');
       } else {
-        sticky.classList.remove("fixed");
-        document.querySelector("body").classList.add("background-enabled");
+        sticky.classList.remove('fixed');
+        document.querySelector('body').classList.add('background-enabled');
       }
     }
   });
@@ -38,13 +38,13 @@ export const createSkillsDot = () => {
   const skills_dotted = document.querySelectorAll(".skills .progress");
   skills_dotted.forEach((skill) => {
     skill.insertAdjacentHTML(
-      "beforeend",
-      '<span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>'
+      'beforeend',
+      '<span class="dg"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>',
     );
     let percentage = skill.querySelector(".percentage");
     percentage.insertAdjacentHTML(
-      "beforeend",
-      '<span class="da"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>'
+      'beforeend',
+      '<span class="da"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>',
     );
     let width = skill.clientWidth;
     let da = percentage.querySelector(".da");

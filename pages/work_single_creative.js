@@ -1,6 +1,6 @@
-import { CreativePageBanner } from "../src/components/PageBanner";
-import SingleBlog from "../src/components/SingleBlog";
-import Layout from "../src/layout/Layout";
+import { CreativePageBanner } from '../src/components/PageBanner';
+import SingleBlog from '../src/components/SingleBlog';
+import Layout from '../src/layout/Layout';
 
 const WorkSingleCreative = () => {
   const typingAnimation = [
@@ -8,10 +8,7 @@ const WorkSingleCreative = () => {
   ];
   return (
     <Layout>
-      <CreativePageBanner
-        pageName={"Coding"}
-        typingData={typingAnimation}
-      />
+      <CreativePageBanner pageName={'Coding'} typingData={typingAnimation} />
       <SingleBlog />
     </Layout>
   );

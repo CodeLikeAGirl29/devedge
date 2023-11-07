@@ -1,6 +1,6 @@
-import ContactSection from "../src/components/ContactSection";
-import { CreativePageBanner } from "../src/components/PageBanner";
-import Layout from "../src/layout/Layout";
+import ContactSection from '../src/components/ContactSection';
+import { CreativePageBanner } from '../src/components/PageBanner';
+import Layout from '../src/layout/Layout';
 
 const ContactsCreative = () => {
   const typingAnimation = [
@@ -8,7 +8,7 @@ const ContactsCreative = () => {
   ];
   return (
     <Layout>
-      <CreativePageBanner pageName={"Contact"} typingData={typingAnimation} />
+      <CreativePageBanner pageName={'Contact'} typingData={typingAnimation} />
       <ContactSection />
     </Layout>
   );

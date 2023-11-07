@@ -30,7 +30,7 @@ const TypingAnimation = ({ typingData, extraClassName }) => {
   return (
     <span
       className={`${extraClassName} typing-subtitle`}
-      id="subtitle"
+      id='subtitle'
       ref={el}
     ></span>
   );

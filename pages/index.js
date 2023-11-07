@@ -16,7 +16,11 @@ const Index = () => {
           <div className='video-bg-texture' id='grained_container' />
         </div>
         {/* started content */}
+<<<<<<< HEAD
         <div className='centralize full-width'>
+=======
+        <div className='centrize full-width'>
+>>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
           <div className='vertical-center'>
             <div className='started-content'>
               <h1 className='h-title'>

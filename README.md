@@ -1,4 +1,3 @@
-
 # DevEdge
 
 > Live link can be found [here](https://devedge.vercel.app/)

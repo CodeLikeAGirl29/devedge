@@ -1,10 +1,10 @@
-import Head from "next/head";
-import { Fragment } from "react";
+import Head from 'next/head';
+import { Fragment } from 'react';
 // font awesome imports
-import "@fortawesome/fontawesome-svg-core/styles.css";
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
-config.autoAddCss = false
-import "../styles/globals.css";
+config.autoAddCss = false;
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,14 +13,14 @@ function MyApp({ Component, pageProps }) {
         <title>Cvio - Resume/CV React NextJS Template</title>
 
         <link
-          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic"
-          rel="stylesheet"
+          href='https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic'
+          rel='stylesheet'
         />
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Satisfy" rel="stylesheet" />
 
-        <link rel="stylesheet" href="css/basic.css" />
+        <link rel='stylesheet' href='css/basic.css' />
 
-        <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+        <link rel='shortcut icon' href='images/favicons/favicon.ico' />
       </Head>
       <Component {...pageProps} />
     </Fragment>

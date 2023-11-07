@@ -1,16 +1,16 @@
-import { useEffect } from "react";
-import { createSkillsDot, dotResize } from "../utils";
+import { useEffect } from 'react';
+import { createSkillsDot, dotResize } from '../utils';
 
 export const DesignSkills = () => {
   return (
-    <div className="section skills" id="section-skills">
-      <div className="content">
+    <div className='section skills' id='section-skills'>
+      <div className='content'>
         {/* title */}
-        <div className="title">
-          <div className="title_inner">Design Skills</div>
+        <div className='title'>
+          <div className='title_inner'>Design Skills</div>
         </div>
         {/* skills items */}
-        <div className="skills percent content-box">
+        <div className='skills percent content-box'>
           <ul>
             <li>
               <div className="name">Graphic Design</div>
@@ -58,14 +58,14 @@ export const LanguagesSkills = () => {
   }, []);
 
   return (
-    <div className="section skills" id="section-skills-lang">
-      <div className="content">
+    <div className='section skills' id='section-skills-lang'>
+      <div className='content'>
         {/* title */}
-        <div className="title">
-          <div className="title_inner">Soft Skills</div>
+        <div className='title'>
+          <div className='title_inner'>Soft Skills</div>
         </div>
         {/* skills items */}
-        <div className="skills percent content-box">
+        <div className='skills percent content-box'>
           <ul>
             <li>
               <div className="name">Problem-solving</div>
@@ -108,14 +108,14 @@ export const LanguagesSkills = () => {
 
 export const CodingSkills = () => {
   return (
-    <div className="section skills" id="section-skills-code">
-      <div className="content">
+    <div className='section skills' id='section-skills-code'>
+      <div className='content'>
         {/* title */}
-        <div className="title">
-          <div className="title_inner">Coding Skills</div>
+        <div className='title'>
+          <div className='title_inner'>Coding Skills</div>
         </div>
         {/* skills items */}
-        <div className="skills circles content-box">
+        <div className='skills circles content-box'>
           <ul>
             <li>
               <div className="name">JavaScript</div>
@@ -148,17 +148,17 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">CSS / SCSS</div>
-              <div className="progress p75">
-                {" "}
+              <div className='name'>CSS / SCSS</div>
+              <div className='progress p75'>
+                {' '}
                 {/* p75 = 75% circle fill color */}
-                <div className="percentage">
-                  <span className="percent">75%</span>
+                <div className='percentage'>
+                  <span className='percent'>75%</span>
                 </div>
                 <span>75%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
+                <div className='slice'>
+                  <div className='bar'></div>
+                  <div className='fill'></div>
                 </div>
               </div>
             </li>
@@ -167,13 +167,13 @@ export const CodingSkills = () => {
               <div className="progress p75">
                 {" "}
                 {/* p95 = 95% circle fill color */}
-                <div className="percentage">
-                  <span className="percent">75%</span>
+                <div className='percentage'>
+                  <span className='percent'>75%</span>
                 </div>
                 <span>75%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
+                <div className='slice'>
+                  <div className='bar'></div>
+                  <div className='fill'></div>
                 </div>
               </div>
             </li>
@@ -185,38 +185,38 @@ export const CodingSkills = () => {
 };
 export const KnowledgeSkills = () => {
   return (
-    <div className="section skills" id="section-skills-know">
-      <div className="content">
+    <div className='section skills' id='section-skills-know'>
+      <div className='content'>
         {/* title */}
-        <div className="title">
-          <div className="title_inner">Knowledge</div>
+        <div className='title'>
+          <div className='title_inner'>Knowledge</div>
         </div>
         {/* skills */}
-        <div className="skills list content-box">
+        <div className='skills list content-box'>
           <ul>
             <li>
-              <div className="name">Website hosting</div>
+              <div className='name'>Website hosting</div>
             </li>
             <li>
-              <div className="name">Responsive Web Design</div>
+              <div className='name'>Responsive Web Design</div>
             </li>
             <li>
-              <div className="name">Web Performance Optimization</div>
+              <div className='name'>Web Performance Optimization</div>
             </li>
             <li>
-              <div className="name">Branding</div>
+              <div className='name'>Branding</div>
             </li>
             <li>
-              <div className="name">Version Control/Git</div>
+              <div className='name'>Version Control/Git</div>
             </li>
             <li>
-              <div className="name">Build Tools: Gulp, Webpack & Parcel</div>
+              <div className='name'>Build Tools: Gulp, Webpack & Parcel</div>
             </li>
             <li>
-              <div className="name">API Integration</div>
+              <div className='name'>API Integration</div>
             </li>
             <li>
-              <div className="name">Content Management Systems (CMS)</div>
+              <div className='name'>Content Management Systems (CMS)</div>
             </li>
           </ul>
         </div>

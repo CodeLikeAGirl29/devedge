@@ -1,7 +1,7 @@
-import { DefaultPageBanner } from "../src/components/PageBanner";
-import Layout from "../src/layout/Layout";
-import dynamic from "next/dynamic";
-const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
+import { DefaultPageBanner } from '../src/components/PageBanner';
+import Layout from '../src/layout/Layout';
+import dynamic from 'next/dynamic';
+const ItemIsotope = dynamic(() => import('../src/components/ItemIsotope'), {
   ssr: false,
 });
 
@@ -11,11 +11,11 @@ const Works = () => {
   ];
   return (
     <Layout>
-      <DefaultPageBanner pageName={"projects"} typingData={typingAnimation} />
-      <div className="section works" id="next_section">
-        <div className="content">
+      <DefaultPageBanner pageName={'projects'} typingData={typingAnimation} />
+      <div className='section works' id='next_section'>
+        <div className='content'>
           <ItemIsotope />
-          <div className="clear" />
+          <div className='clear' />
         </div>
       </div>
     </Layout>

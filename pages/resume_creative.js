@@ -9,10 +9,10 @@ import {
   DesignSkills,
   KnowledgeSkills,
   LanguagesSkills,
-} from "../src/components/Skills";
-import Team from "../src/components/Team";
-import Testimonials from "../src/components/Testimonials";
-import Layout from "../src/layout/Layout";
+} from '../src/components/Skills';
+import Team from '../src/components/Team';
+import Testimonials from '../src/components/Testimonials';
+import Layout from '../src/layout/Layout';
 
 const ResumeCreative = () => {
   const typingAnimation = [
@@ -21,7 +21,7 @@ const ResumeCreative = () => {
   return (
     <Layout>
       {/* Section Started */}
-      <CreativePageBanner pageName={"Resume"} typingData={typingAnimation} />
+      <CreativePageBanner pageName={'Resume'} typingData={typingAnimation} />
       {/* Section About */}
       <About />
       {/* Section Service */}

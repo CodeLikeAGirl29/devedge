@@ -1,6 +1,6 @@
-import ContactSection from "../src/components/ContactSection";
-import { ImagePageBanner } from "../src/components/PageBanner";
-import Layout from "../src/layout/Layout";
+import ContactSection from '../src/components/ContactSection';
+import { ImagePageBanner } from '../src/components/PageBanner';
+import Layout from '../src/layout/Layout';
 
 const ContactsImg = () => {
   const typingAnimation = [
@@ -8,7 +8,7 @@ const ContactsImg = () => {
   ];
   return (
     <Layout>
-      <ImagePageBanner pageName={"Contact"} typingData={typingAnimation} />
+      <ImagePageBanner pageName={'Contact'} typingData={typingAnimation} />
       <ContactSection />
     </Layout>
   );
