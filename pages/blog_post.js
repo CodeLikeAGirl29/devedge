@@ -15,7 +15,6 @@ const BlogPost = () => {
 				typingData={typingAnimation}
 				bannerImg="images/blog/blog-7.png"
 			/>
-
 			<div className="section blog">
 				<div className="content">
 					<div className="post">
@@ -122,30 +121,35 @@ const BlogPost = () => {
 									<Link
 										className="share-btn share-btn-facebook share-btn-1"
 										title="Share on Facebook"
+										href="https://facebook.com"
 									>
 										<i className="fab fa-facebook"></i>
 									</Link>
 									<Link
 										className="share-btn share-btn-twitter share-btn-2"
 										title="Share on Twitter"
+										href="https://twitter.com"
 									>
 										<i className="fab fa-twitter"></i>
 									</Link>
 									<Link
 										className="share-btn share-btn-linkedin share-btn-3"
 										title="Share on Linkedin"
+										href="https://linkedin.com"
 									>
 										<i className="fab fa-linkedin"></i>
 									</Link>
 									<Link
 										className="share-btn share-btn-reddit share-btn-4"
-										title="Share on Reddit"
+										title="Share on Medium"
+										href="https://medium.com"
 									>
-										<i className="fab fa-reddit"></i>
+										<i className="fab fa-medium"></i>
 									</Link>
 									<Link
 										className="share-btn share-btn-pinterest share-btn-5"
 										title="Share on Pinterest"
+										href="https://pinterest.com"
 									>
 										<i className="fab fa-pinterest"></i>
 									</Link>

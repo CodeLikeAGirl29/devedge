@@ -1,8 +1,7 @@
 import { ImagePageBanner } from "../src/components/PageBanner";
-import { Fragment, useContext } from "react";
 import Layout from "../src/layout/Layout";
 import Link from "next/link";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import Image from "next/image";
 
 const BlogPost = () => {
