@@ -17,20 +17,11 @@ const IndexCreative = () => {
           <div className='video-bg-texture' id='grained_container' />
         </div>
         {/* started content */}
-<<<<<<< HEAD
         <div className="centralize full-width">
           <div className="vertical-center">
             <div className="started-content">
               <h1 className="h-title">
                 Hello, {`I’m`} <strong>Lindsey Howard</strong>,Front-end Developer based in Ft Walton Beach, Florida.
-=======
-        <div className='centrize full-width'>
-          <div className='vertical-center'>
-            <div className='started-content'>
-              <h1 className='h-title'>
-                Hello, {`I’m`} <strong>Lindsey Howard</strong>, Web Developer
-                based in Ft Walton Beach, Florida.
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
               </h1>
               <div className='h-subtitles' style={{ opacity: '1' }}>
                 <TypingAnimation extraClassName={'h-subtitle'} />
