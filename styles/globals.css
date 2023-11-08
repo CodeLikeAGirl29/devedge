@@ -44,11 +44,7 @@ html {
 }
 
 .info.circle:hover {
-<<<<<<< HEAD
   background: #bbd1f3;
-=======
-  background: #cbc3e3;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
   transition: 1s all;
 }
 

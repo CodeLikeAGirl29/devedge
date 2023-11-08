@@ -23,11 +23,7 @@
 
 /* - Basic */
 html {
-<<<<<<< HEAD
 	margin-right: 0 !important;
-=======
-  margin-right: 0 !important;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 body {
@@ -61,7 +57,6 @@ body.scroll_hidden {
 }
 
 .cursor-follower {
-<<<<<<< HEAD
 	margin: -13px 0 0 -13px;
 	position: absolute;
 	background: $active_color;
@@ -78,27 +73,6 @@ body.scroll_hidden {
 
 .cursor-follower.hide {
 	opacity: 0 !important;
-=======
-  margin: -13px 0 0 -13px;
-  position: absolute;
-  background: $active_color;
-  width: 26px;
-  height: 26px;
-  -webkit-transition:
-    transform 1s cubic-bezier(0.02, 1.2, 0.8, 1),
-    opacity 0.25s ease;
-  transition:
-    transform 1s cubic-bezier(0.02, 1.2, 0.8, 1),
-    opacity 0.25s ease;
-  opacity: 0.4;
-  z-index: 1111;
-  pointer-events: none;
-  @include border-radius(50%);
-}
-
-.cursor-follower.hide {
-  opacity: 0 !important;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 @media (max-width: 1199px) {
@@ -109,7 +83,6 @@ body.scroll_hidden {
 
 /* - Preloader */
 .preloader {
-<<<<<<< HEAD
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -138,36 +111,6 @@ body.scroll_hidden {
 			animation: loading 2s infinite ease-in-out;
 		}
 	}
-=======
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 11111;
-  .spinner {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    .double-bounce1,
-    .double-bounce2 {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .double-bounce2 {
-      background: rgba(255, 255, 255, 0.5);
-      height: 0;
-      -webkit-animation: loading 2s infinite ease-in-out;
-      animation: loading 2s infinite ease-in-out;
-    }
-  }
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 /* - Container */
@@ -299,7 +242,6 @@ body.scroll_hidden {
 }
 
 .lines .line-col:before {
-<<<<<<< HEAD
 	content: "";
 	position: absolute;
 	left: 0;
@@ -320,28 +262,6 @@ body.scroll_hidden {
 	background: $extra_bg;
 	z-index: 12;
 	@include transition(height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
-=======
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1px;
-  height: 0%;
-  background: $lines_color;
-  @include transition(height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
-}
-
-.lines .line-col:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: $extra_bg;
-  z-index: 12;
-  @include transition(height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .lines.finish .line-col:before {
@@ -432,15 +352,9 @@ body.scroll_hidden {
 }
 
 .cols:after {
-<<<<<<< HEAD
 	content: "";
 	display: block;
 	clear: both;
-=======
-  content: '';
-  display: block;
-  clear: both;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 /* - Typography */
@@ -566,7 +480,6 @@ a:hover {
 
 a.btn,
 .btn,
-<<<<<<< HEAD
 .single-post-text input[type="submit"] {
 	margin-bottom: 10px;
 	position: relative;
@@ -584,25 +497,6 @@ a.btn,
 	border: 2px solid $active_color;
 	cursor: pointer;
 	@include transition(1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
-=======
-.single-post-text input[type='submit'] {
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  height: 44px;
-  line-height: 40px;
-  text-align: center;
-  font-size: $default_size;
-  color: $active_color;
-  font-weight: 500;
-  text-decoration: none;
-  background: none;
-  border: 2px solid $active_color;
-  cursor: pointer;
-  @include transition(1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 a.btn .lnk,
@@ -620,19 +514,11 @@ a.btn:hover,
 }
 
 @media screen and (max-width: 720px) {
-<<<<<<< HEAD
 	a.btn,
 	.btn,
 	.single-post-text input[type="submit"] {
 		font-size: $small_size;
 	}
-=======
-  a.btn,
-  .btn,
-  .single-post-text input[type='submit'] {
-    font-size: $small_size;
-  }
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 /* - Forms */
@@ -645,7 +531,6 @@ form.post-password-form {
 input,
 textarea,
 button {
-<<<<<<< HEAD
 	display: block;
 	font-family: $default_font;
 	font-size: $default_size;
@@ -661,23 +546,6 @@ button {
 	outline: 0;
 	@include border-radius(0%);
 	@include transition(all 0.3s ease 0s);
-=======
-  display: block;
-  font-family: $default_font;
-  font-size: $default_size;
-  height: 50px;
-  width: 100%;
-  color: $light_color;
-  margin-bottom: 30px;
-  padding: 0;
-  background: none !important;
-  border: none;
-  border-bottom: 1px solid $lines_color;
-  resize: none;
-  outline: 0;
-  @include border-radius(0%);
-  @include transition(all 0.3s ease 0s);
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 input:focus,
@@ -770,11 +638,7 @@ textarea.wpcf7-not-valid {
 
 label.error,
 .wpcf7-not-valid-tip {
-<<<<<<< HEAD
 	display: none !important;
-=======
-  display: none !important;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 input.error::-moz-placeholder,
@@ -814,7 +678,6 @@ input[type='radio'] {
   display: inline;
 }
 
-<<<<<<< HEAD
 input[type="checkbox"],
 input[type="radio"] {
 	width: auto;
@@ -822,15 +685,6 @@ input[type="radio"] {
 	margin-bottom: 10px;
 	margin-right: 0;
 	margin-left: 0;
-=======
-input[type='checkbox'],
-input[type='radio'] {
-  width: auto;
-  height: auto;
-  margin-bottom: 10px;
-  margin-right: 0;
-  margin-left: 0;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 input[type='checkbox'] {
@@ -891,15 +745,9 @@ ul ul,
 ol ol,
 ul ol,
 ol ul {
-<<<<<<< HEAD
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: 15px;
-=======
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 /* - Code */
@@ -928,13 +776,8 @@ pre {
 
 mark,
 ins {
-<<<<<<< HEAD
 	background: $light_color;
 	text-decoration: none;
-=======
-  background: $light_color;
-  text-decoration: none;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 /* - Tables */
@@ -1043,7 +886,6 @@ dd {
   width: auto !important;
 }
 
-<<<<<<< HEAD
 .centralize {
 	display: table !important;
 	table-layout: fixed !important;
@@ -1052,16 +894,6 @@ dd {
 	top: 0;
 	left: 0;
 	z-index: 2;
-=======
-.centrize {
-  display: table !important;
-  table-layout: fixed !important;
-  height: 100% !important;
-  position: relative !important;
-  top: 0;
-  left: 0;
-  z-index: 2;
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
 
 .vertical-center {
@@ -1164,7 +996,6 @@ blockquote {
     top: 0px;
   }
 
-<<<<<<< HEAD
 	50% {
 		top: 10px;
 	}
@@ -1172,13 +1003,4 @@ blockquote {
 	100% {
 		top: 0px;
 	}
-=======
-  50% {
-    top: 10px;
-  }
-
-  100% {
-    top: 0px;
-  }
->>>>>>> 8ee3b4267dae07d402aa248f0e32223e568e3dd9
 }
