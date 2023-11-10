@@ -87,7 +87,7 @@ const IndexOnePage = () => {
 							<div className="started-content">
 								<h1 className="h-title">
 									👋 Hello, I&apos;m <strong>Lindsey Howard</strong>, Front-end
-									Developer based in Ft Walton Beach, FL.
+									    Developer with a keen eye to detail based in Fort Walton Beach, Florida.
 								</h1>
 								<TypingAnimation extraClassName={"typed-subtitle"} />
 								<span className="typed-subtitle" />
@@ -112,7 +112,7 @@ const IndexOnePage = () => {
 							style={{ width: "100%", height: "100%", position: "relative" }}
 						>
 							<Image
-								src="images/avatar-img.png"
+								src="/images/avatar-img.png"
 								alt=""
 								layout="fill"
 								objectFit="contain"
@@ -140,7 +140,7 @@ const IndexOnePage = () => {
 										<strong>Freelance:</strong> Available
 									</li>
 									<li>
-										<strong>Address:</strong> Ft Walton Beach, FL
+										<strong>Address:</strong> Fort Walton Beach, FL
 									</li>
 									<li>
 										<strong>Phone:</strong> 850.865.2684
@@ -542,7 +542,7 @@ const IndexOnePage = () => {
 								<div className="team-item content-box">
 									<div className="image">
 										<Image
-											src="images/team1.png"
+											src="/images/team1.png"
 											alt=""
 											height={750}
 											width={600}
@@ -653,8 +653,8 @@ const IndexOnePage = () => {
 									</div>
 									<div className="name">Email</div>
 									<div className="text">
-										<Link href="mailto:lindseykdev@gmail.com">
-											lindseykdev@gmail.com
+										<Link href="mailto:codelikeagirl91@gmail.com">
+											codelikeagirl91@gmail.com
 										</Link>
 									</div>
 								</div>

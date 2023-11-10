@@ -21,7 +21,8 @@ const Index = () => {
 						<div className="started-content">
 							<h1 className="h-title">
 								Hello, {`I’m`} <strong>Lindsey Howard</strong>, a Front-end
-								Developer based in Ft Walton Beach, FL.
+								Developer with a keen eye to detail based in Fort Walton Beach,
+								Florida.
 							</h1>
 							<TypingAnimation extraClassName={"h-subtitle"} />
 							<span className="typed-subtitle" />

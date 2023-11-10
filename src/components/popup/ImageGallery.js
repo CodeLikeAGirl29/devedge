@@ -1,18 +1,19 @@
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
 
 const ImgView = ({ close, imgs }) => {
 	const images =
 		imgs.length > 0
 			? imgs
 			: [
-					"images/works/work6.jpg",
-					"images/works/work1.jpg",
-					"images/works/work5.jpg",
+					"/images/works/work6.jpg",
+					"/images/works/work1.jpg",
+					"/images/works/work5.jpg",
 			  ];
 	const [photoIndex, setPhotoIndex] = useState(0);
 
 	return (
-		<div className="postion-realtive">
+		<div className="position-relative">
 			<div className="mfp-bg mfp-fade mfp-ready" onClick={() => close()} />
 
 			<div
@@ -27,10 +28,12 @@ const ImgView = ({ close, imgs }) => {
 						<div className="mfp-content imgGallery_popup">
 							<div className="mfp-iframe-scaler">
 								<div className="img-container">
-									<img
+									<Image
 										style={{ width: `100%` }}
 										className="mfp-img"
 										src={images[photoIndex]}
+										height={400}
+										width={500}
 									/>
 									{/* <div className="mfp-bottom-bar">
                     <div className="mfp-title" />
@@ -90,7 +93,7 @@ const ImageGallery = () => {
 				});
 			}
 		}, 1000);
-		console.log(imgs);
+		// console.log(imgs);
 	}, [view]);
 	return (
 		<Fragment>

@@ -17,7 +17,7 @@
      padding: 0;
      border: none;
      font-family: "Roboto";
-     font-size: 16px;
+     font-size: 1rem;
      line-height: 1.5;
      color: #bbb;
      background: #101010;
@@ -308,27 +308,27 @@
      color: #141414;
 }
  h1 {
-     font-size: 34px;
-     font-family: "Satisfy", cursive;
+     font-size: 2.125rem;
+     font-family: 'Vina Sans', sans-serif;
 }
 
  h2 {
-     font-size: 30px;
+     font-size: 1.875rem;
 }
  h3 {
-     font-size: 26px;
+     font-size: 1.625rem;
 }
  h4 {
-     font-size: 22px;
+     font-size: 1.375rem;
 }
  h5 {
-     font-size: 18px;
+     font-size: 1.125rem;
 }
  h6 {
-     font-size: 14px;
+     font-size: 0.875rem;
 }
  p {
-     font-size: 16px;
+     font-size: 1rem;
      padding: 0;
      margin: 30px 0;
 }
@@ -337,22 +337,22 @@
 }
  @media screen and (max-width: 720px) {
      h1 {
-         font-size: 24px;
+         font-size: 1.5rem;
     }
      h2 {
-         font-size: 20px;
+         font-size: 1.25rem;
     }
      h3 {
-         font-size: 18px;
+         font-size: 1.125rem;
     }
      h4 {
-         font-size: 16px;
+         font-size: 1rem;
     }
      h5 {
-         font-size: 14px;
+         font-size: 0.875rem;
     }
      h6 {
-         font-size: 13px;
+         font-size: 0.813rem;
     }
      p {
          margin: 20px 0;
@@ -421,7 +421,7 @@
      height: 44px;
      line-height: 40px;
      text-align: center;
-     font-size: 16px;
+     font-size: 1rem;
      color: #bbd1f3;
      font-weight: 500;
      text-decoration: none;
@@ -445,7 +445,7 @@
 }
  @media screen and (max-width: 720px) {
      a.btn, .btn, .single-post-text input[type="submit"] {
-         font-size: 14px;
+         font-size: 0.875rem;
     }
 }
 /* - Forms */
@@ -457,7 +457,7 @@
  input, textarea, button {
      display: block;
      font-family: "Roboto";
-     font-size: 16px;
+     font-size: 1rem;
      height: 50px;
      width: 100%;
      color: #eee;
@@ -502,7 +502,7 @@
      display: block;
      padding-bottom: 10px;
      font-family: "Roboto";
-     font-size: 13px;
+     font-size: 0.813rem;
 }
  fieldset {
      border-width: 0;
@@ -648,12 +648,12 @@
  table caption {
      padding: 6px 0;
      background: #f6f6f6;
-     font-size: 12px;
+     font-size: 0.75rem;
 }
  th {
      color: #999;
      padding: 10px 20px;
-     font-size: 12px;
+     font-size: 0.75rem;
      font-weight: 700;
      text-align: left;
      border: 4px solid #FFF;
@@ -666,7 +666,7 @@
      border: 4px solid #FFF;
      padding: 10px 20px;
      color: #363636;
-     font-size: 13px;
+     font-size: 0.813rem;
      background: #f6f6f6;
 }
  td.pad {
@@ -674,7 +674,7 @@
 }
  dt {
      margin-bottom: 5px;
-     font-size: 15px;
+     font-size: 0.938rem;
      font-weight: 700;
 }
  dd {

@@ -647,14 +647,14 @@
 				bottom: 50px;
 				width: auto;
 				max-width: 560px;
-				font-size: 20px;
+				font-size: 1.25rempx;
 				line-height: $line_height;
 				font-weight: 400;
 				text-align: left;
 			}
 			.h-subtitle p {
 				margin: 0;
-				font-size: 20px;
+				font-size: 1.25rempx;
 				line-height: $line_height;
 			}
 		}
@@ -1023,7 +1023,7 @@
 		left: 0;
 		bottom: 30px;
 		padding-right: 50px;
-		font-size: 20px;
+		font-size: 1.25rempx;
 		line-height: 30px;
 	}
 	.section.started .swiper-nav {

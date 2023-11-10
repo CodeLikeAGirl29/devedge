@@ -23,7 +23,6 @@ const AnimationText = ({ typingData, extraClass }) => {
 				showCursor: true,
 			});
 
-			// Destropying
 			return () => {
 				typed.destroy();
 			};
@@ -95,7 +94,7 @@ export const ImagePageBanner = ({
 				className="video-bg jarallax"
 				style={{
 					backgroundImage: `url(${
-						bannerImg ? bannerImg : "images/resume_bg.jpg"
+						bannerImg ? bannerImg : "/images/resume-bg.png"
 					})`,
 				}}
 			>

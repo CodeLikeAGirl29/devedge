@@ -92,7 +92,7 @@
   overflow: hidden;
   top: 50%;
   width: 150px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 2.5;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
@@ -533,7 +533,7 @@
 .section .content-box {
   margin-right: -1px;
   padding: 35px;
-  font-size: 16px;
+  font-size: 1rem;
   background: #101010;
   border: 1px solid rgba(255, 255, 255, 0.07);
 }
@@ -616,7 +616,7 @@
   left: calc(20% + 35px);
   bottom: 50px;
   max-width: 580px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #fff;
   word-break: break-word;
@@ -685,8 +685,8 @@
   top: 0;
   bottom: auto;
   max-width: 800px;
-  font-size: 44px;
-  font-family: 'Roboto';
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
   font-weight: 500;
   text-transform: none;
   letter-spacing: 0em;
@@ -769,7 +769,7 @@
   bottom: 50px;
   width: auto;
   max-width: 560px;
-  font-size: 20px;
+  font-size: 1.25rempx;
   line-height: 1.5;
   font-weight: 400;
   text-align: left;
@@ -777,7 +777,7 @@
 
 .section.started.section-title .started-content .h-subtitle p {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rempx;
   line-height: 1.5;
 }
 
@@ -840,7 +840,7 @@
 .started-content
 .typed-bread {
   top: auto;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.9;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
@@ -1177,7 +1177,7 @@
     left: 0;
     bottom: 30px;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 1.25rempx;
     line-height: 30px;
   }
 
@@ -1433,7 +1433,7 @@
 .skills ul li .name {
   margin: 0 0 10px;
   position: relative;
-  font-size: 16px;
+  font-size: 1rem;
   color: #eee;
   font-weight: 500;
 }
@@ -1463,7 +1463,7 @@
   position: absolute;
   top: -34px;
   right: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -1621,7 +1621,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 90px;
   text-align: center;
   white-space: nowrap;
@@ -2754,7 +2754,7 @@
   vertical-align: top;
   margin-right: 25px;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #eee;
   font-weight: 400;
   cursor: pointer;
@@ -2992,7 +2992,7 @@
 
 .section.contacts .alert-success p {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   color: #eee;
 }
 
@@ -3352,7 +3352,7 @@ font-size: 1.2rem;
 blockquote {
   margin: 25px 0;
   padding: 0 0 0 20px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 28px;
   color: #999;
   font-style: italic;
@@ -3515,7 +3515,7 @@ object {
   top: 1px;
   margin-left: 7px;
   margin-right: 7px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .post-text-bottom > span,
@@ -3591,7 +3591,7 @@ object {
   display: inline-block;
   vertical-align: middle;
   font-family: 'Font Awesome 5 Free';
-  font-size: 20px;
+  font-size: 1.25rempx;
   line-height: 14px;
   font-weight: 900;
 }
@@ -4124,7 +4124,7 @@ object {
   display: inline-block;
   vertical-align: top;
   width: 50%;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .blog-items.cols .blog-col .blog-item.content-box {
@@ -4289,7 +4289,7 @@ object {
   display: inline-block;
   vertical-align: middle;
   font-family: 'Font Awesome 5 Free';
-  font-size: 20px;
+  font-size: 1.25rempx;
   line-height: 14px;
   font-weight: 900;
 }
@@ -4374,7 +4374,7 @@ object {
   margin-bottom: 20px;
   padding-bottom: 15px;
   position: relative;
-  font-size: 20px;
+  font-size: 1.25rempx;
   line-height: normal;
   color: #fff;
 }

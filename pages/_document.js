@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-css-tags */
 import { Html, Head, Main, NextScript } from "next/document";
 
 import React from "react";
@@ -11,7 +10,7 @@ export default function Document() {
 		<Html>
 			<Head>
 				<link
-					href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Satisfy&display=optional"
+					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Oswald:wght@200;300;400;600&family=Playfair+Display:wght@400;700&display=swap"
 					rel="stylesheet"
 				/>
 				<link rel="stylesheet" href="css/basic.css" />

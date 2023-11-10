@@ -62,7 +62,7 @@ const ItemIsotope = () => {
 					// span.style.left = `${m.pageX - e.offsetLeft - e.clientWidth / 2}px`;
 				}
 			});
-			e.addEventListener("mouseleave", (m) => {
+			e.addEventListener("mouseleave", () => {
 				const span = document.querySelector(".ink");
 				if (span) {
 					span.classList.remove("ink-animate");
@@ -168,7 +168,7 @@ const ItemIsotope = () => {
 						</a>
 						<div id="gallery-1" className="mfp-hide">
 							<a href="/images/work1.png" />
-							<a href="images/work5.png" />
+							<a href="/images/work5.png" />
 							<a href="/images/work3.png" />
 							<a href="images/work4.png" />
 						</div>
@@ -211,7 +211,7 @@ const ItemIsotope = () => {
 							className="has-popup-design hover-animated"
 						>
 							<Image
-								src="images/work2.jpg"
+								src="/images/work2.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -235,11 +235,11 @@ const ItemIsotope = () => {
 				<div className="box-item f-image">
 					<div className="image">
 						<a
-							href="images/work4.jpg"
+							href="/images/work4.jpg"
 							className="has-popup-image hover-animated"
 						>
 							<Image
-								src="images/work4.jpg"
+								src="/images/work4.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -263,11 +263,11 @@ const ItemIsotope = () => {
 				<div className="box-item f-image">
 					<div className="image">
 						<a
-							href="images/work7.jpg"
+							href="/images/work7.jpg"
 							className="has-popup-image hover-animated"
 						>
 							<Image
-								src="images/work7.jpg"
+								src="/images/work7.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -295,7 +295,7 @@ const ItemIsotope = () => {
 							className="has-popup-frontend hover-animated"
 						>
 							<Image
-								src="images/work6.jpg"
+								src="/images/work6.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -320,7 +320,7 @@ const ItemIsotope = () => {
 					<div className="image">
 						<a href="#gallery-2" className="has-popup-gallery hover-animated">
 							<Image
-								src="images/work5.jpg"
+								src="/images/work5.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -340,10 +340,10 @@ const ItemIsotope = () => {
 							</span>
 						</a>
 						<div id="gallery-2" className="mfp-hide">
-							<a href="images/work5.jpg" />
-							<a href="images/work1.jpg" />
-							<a href="images/work2.jpg" />
-							<a href="images/work3.jpg" />
+							<a href="/images/work5.jpg" />
+							<a href="/images/work1.jpg" />
+							<a href="/images/work2.jpg" />
+							<a href="/images/work3.jpg" />
 						</div>
 					</div>
 				</div>
@@ -351,7 +351,7 @@ const ItemIsotope = () => {
 					<div className="image">
 						<a href="#popup-1" className="has-popup-media hover-animated">
 							<Image
-								src="images/work8.jpg"
+								src="/images/work8.jpg"
 								className="wp-post-image"
 								alt=""
 								width={1000}
@@ -375,7 +375,7 @@ const ItemIsotope = () => {
 						<div className="content">
 							<div
 								className="image"
-								style={{ backgroundImage: "url(images/work8.jpg)" }}
+								style={{ backgroundImage: "url(/images/work8.jpg)" }}
 							/>
 							<div className="desc single-post-text">
 								<div className="category">Content</div>

@@ -33,7 +33,7 @@ const About = () => {
 								<strong>Freelance:</strong> Available
 							</li>
 							<li>
-								<strong>Address:</strong> Ft Walton Beach, FL
+								<strong>Address:</strong> Fort Walton Beach, FL
 							</li>
 							<li>
 								<strong>Phone:</strong> 850.865.2684
