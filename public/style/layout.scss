@@ -140,7 +140,6 @@
 					margin-left: 5px;
 					position: relative;
 					top: 0;
-					display: inline-block;
 					font-family: "Font Awesome 5 Free";
 					font-weight: 900;
 					font-size: 0.8em;
@@ -471,7 +470,7 @@
 		padding-right: 30px;
 	}
 	.section .title {
-		margin: 0 0 30px 0;
+		margin: 0 0 30px;
 	}
 }
 
@@ -1126,7 +1125,7 @@
 			display: inline-block;
 			vertical-align: top;
 			width: 48%;
-			margin: 0 0 6px 0;
+			margin: 0 0 6px;
 			strong {
 				font-weight: 400;
 				color: $active_color;
@@ -1157,7 +1156,7 @@
 /* section about mobile */
 @media (max-width: 720px) {
 	.section.about .image {
-		margin: 0 auto 20px auto;
+		margin: 0 auto 20px;
 		float: none;
 		width: 100px;
 		text-align: center;
@@ -1189,19 +1188,19 @@
 .resume-items {
 	.resume-item {
 		position: relative;
-		margin: 70px 0 0 0;
+		margin: 70px 0 0;
 		&:first-child {
 			margin: 0;
 		}
 		.date {
 			position: relative;
-			margin: 0 0 5px 0;
+			margin: 0 0 5px;
 			display: inline-block;
 			font-size: $extra_small_size;
 			color: $extra_color;
 		}
 		.name {
-			margin: 0 0 15px 0;
+			margin: 0 0 15px;
 			color: $light_color;
 			font-weight: 500;
 		}
@@ -1223,7 +1222,7 @@
 		padding-left: 20px;
 	}
 	.resume-items .resume-item {
-		margin: 40px 0 0 0;
+		margin: 40px 0 0;
 	}
 }
 
@@ -1241,13 +1240,13 @@
 /* - Skills */
 .skills {
 	ul {
-		margin: -35px 0 0 0;
+		margin: -35px 0 0;
 		padding: 0;
 		list-style: none;
 		font-size: 0;
 		li {
 			position: relative;
-			padding: 35px 0 0 0;
+			padding: 35px 0 0;
 			&:after {
 				display: none;
 			}
@@ -1255,7 +1254,7 @@
 				padding-bottom: 0;
 			}
 			.name {
-				margin: 0 0 10px 0;
+				margin: 0 0 10px;
 				position: relative;
 				font-size: $default_size;
 				color: $light_color;
@@ -1305,7 +1304,6 @@
 						position: absolute;
 						left: 0;
 						top: 3px;
-						display: inline-block;
 						color: $active_color;
 						font-family: "Font Awesome 5 Free";
 						font-weight: 900;
@@ -1376,7 +1374,7 @@
 		ul {
 			li {
 				margin-top: 35px;
-				padding: 0 0 60px 0;
+				padding: 0 0 60px;
 				display: inline-block;
 				vertical-align: top;
 				width: 25%;
@@ -1412,7 +1410,6 @@
 					}
 					span {
 						position: absolute;
-						width: 100%;
 						left: 0;
 						top: 0;
 						width: 100%;
@@ -2072,10 +2069,10 @@
 /* section skills mobile */
 @media (max-width: 720px) {
 	.skills ul {
-		margin: -20px 0 0 0;
+		margin: -20px 0 0;
 	}
 	.skills ul li {
-		padding: 20px 0 0 0;
+		padding: 20px 0 0;
 	}
 	.skills.dotted ul li {
 		width: 100%;
@@ -2095,10 +2092,10 @@
 /* - Clients */
 
 .clients-items {
-	margin: -35px -35px 0 -35px;
+	margin: -35px -35px 0;
 	font-size: 0;
 	.clients-col {
-		padding: 35px 35px 0 35px;
+		padding: 35px 35px 0;
 		display: inline-block;
 		vertical-align: top;
 		width: 25%;
@@ -2129,9 +2126,9 @@
 /* section clients mobile */
 @media (max-width: 720px) {
 	.clients-items {
-		margin: -20px -20px 0 -20px;
+		margin: -20px -20px 0;
 		.clients-col {
-			padding: 20px 20px 0 20px;
+			padding: 20px 20px 0;
 			width: 50%;
 		}
 	}
@@ -2239,7 +2236,7 @@
 	.box-item {
 		width: 50%;
 		margin: 0;
-		padding: 0 50px 100px 50px;
+		padding: 0 50px 100px;
 		position: relative;
 		text-align: center;
 		font-size: 13px;
@@ -2368,7 +2365,7 @@
 	}
 	.box-items .box-item {
 		width: 50%;
-		padding: 0 20px 40px 20px;
+		padding: 0 20px 40px;
 	}
 	.portfolio-cols {
 		display: block;
@@ -2380,7 +2377,7 @@
 		width: 100%;
 	}
 	.details-col {
-		padding: 40px 0 0 0;
+		padding: 40px 0 0;
 		width: 100%;
 	}
 	.section.works .filters label {
@@ -2559,12 +2556,12 @@
 		}
 	}
 	.name {
-		margin: 30px 0 5px 0;
+		margin: 30px 0 5px;
 		color: $light_color;
 		font-weight: 500;
 	}
 	.category {
-		margin: 0 0 5px 0;
+		margin: 0 0 5px;
 		position: relative;
 		display: inline-block;
 		color: $extra_color;
@@ -2659,7 +2656,7 @@
 		margin-left: 85px;
 	}
 	.name {
-		margin: 0 0 5px 0;
+		margin: 0 0 5px;
 		color: $light_color;
 		font-weight: 500;
 	}
@@ -2808,7 +2805,7 @@ object {
 
 .single-post-text figure,
 .comment-text figure {
-	margin: 0 0 30px 0;
+	margin: 0 0 30px;
 	max-width: 100%;
 }
 
@@ -2921,8 +2918,8 @@ object {
 	color: #141414;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 5px 0 0 0;
-	margin: 0 0 10px 0;
+	padding: 5px 0 0;
+	margin: 0 0 10px;
 }
 
 .post-comments .post-comment .desc p {
@@ -2930,7 +2927,7 @@ object {
 }
 
 .post-comments .form-comment .title {
-	margin: 30px 0 15px 0;
+	margin: 30px 0 15px;
 }
 
 .post-comment.pingback .image {
@@ -2942,7 +2939,7 @@ object {
 }
 
 .post-text-bottom {
-	padding: 25px 0 10px 0;
+	padding: 25px 0 10px;
 }
 
 .post-text-bottom .share-btn {
@@ -3008,7 +3005,7 @@ object {
 }
 
 .comment-info {
-	padding: 10px 0 5px 0;
+	padding: 10px 0 5px;
 }
 
 .comment-info span.comment-time {
@@ -3049,7 +3046,7 @@ object {
 .page-links,
 .nav-links {
 	clear: both;
-	padding: 20px 0 60px 0;
+	padding: 20px 0 60px;
 	text-align: center;
 }
 
@@ -3096,7 +3093,7 @@ object {
 
 @media (max-width: 840px) {
 	.post-comments ul.children {
-		padding: 20px 20px 0 20px;
+		padding: 20px 20px 0;
 	}
 	.post-comments ul.children ul.children {
 		padding: 20px 0 0 20px;
@@ -3114,7 +3111,7 @@ object {
 		text-align: left;
 	}
 	.post-comments ul.children {
-		padding: 15px 15px 15px 15px;
+		padding: 15px;
 	}
 	.post-comments ul.children ul.children {
 		padding: 15px 0 0 10px;
@@ -3192,7 +3189,7 @@ object {
 	}
 	p,
 	.copy {
-		margin: 2px 0 0 0;
+		margin: 2px 0 0;
 		font-size: $small_size;
 		line-height: 2;
 		color: $default_color;
@@ -3310,7 +3307,7 @@ object {
 		width: 20px;
 	}
 	.home .footer .soc a {
-		margin: 10px 0 0 0;
+		margin: 10px 0 0;
 		display: block;
 	}
 	.home .footer .soc a .icon {
@@ -3433,7 +3430,7 @@ object {
 
 .content-sidebar .widget .rss-date,
 .content-sidebar .widget cite {
-	margin: 5px 0 10px 0;
+	margin: 5px 0 10px;
 	padding: 0;
 	display: block;
 	height: 20px;
@@ -3444,7 +3441,7 @@ object {
 }
 
 .content-sidebar .widget cite {
-	margin: 10px 0 0 0;
+	margin: 10px 0 0;
 }
 
 .content-sidebar .widget .rssSummary {
@@ -3479,7 +3476,7 @@ object {
 
 .content-sidebar h2.widget-title {
 	padding-bottom: 20px;
-	margin: -26px -25px 25px -25px;
+	margin: -26px -25px 25px;
 	border-bottom: 1px solid #dddddd;
 	padding: 25px 30px;
 	display: block;
@@ -3589,7 +3586,6 @@ object {
 }
 
 .navigation.post-navigation .nav-links a {
-	position: relative;
 	font-size: $extra_small_size;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3684,14 +3680,14 @@ object {
 }
 
 .popup-box .category {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	display: block;
 	font-size: $small_size;
 	color: $default_color;
 }
 
 .popup-box .desc h4 {
-	margin: 0 0 15px 0;
+	margin: 0 0 15px;
 	display: block;
 	font-size: $large_size;
 	font-weight: 600;
