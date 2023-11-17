@@ -1,11 +1,11 @@
-@import 'animate.css';
- @import 'brands.css';
- @import 'fontawesome.css';
- @import 'solid.css';
- @import 'jarallax.css';
- @import 'layout.css';
- @import 'magnific-popup.css';
- @import 'swiper.css';
+@import url('animate.css');
+@import url('brands.css');
+@import url('fontawesome.css');
+@import url('solid.css');
+@import url('jarallax.css');
+@import url('layout.css');
+@import url('magnific-popup.css');
+@import url('swiper.css');
 
 /* TABLE OF CONTENTS
  - Basic
@@ -612,19 +612,19 @@ label.error, .wpcf7-not-valid-tip {
   display: none !important;
 }
 
-input.error::placeholder, textarea.error::placeholder, input.wpcf7-not-valid::-moz-placeholder, textarea.wpcf7-not-valid::-moz-placeholder {
+input.error::placeholder, textarea.error::placeholder, input.wpcf7valid::placeholder, textarea.wpcf7-not-valid::-moz-placeholder {
   color: red;
 }
 
-input.error:placeholder, textarea.error:placeholder, input.wpcf7-not-valid:-moz-placeholder, textarea.wpcf7-not-valid:-moz-placeholder {
+input.error:placeholder, textarea.error:placeholder, input.wpcf7valid:placeholder, textarea.wpcf7-not-valid:-moz-placeholder {
   color: red;
 }
 
-input.error:input-placeholder, textarea.error:input-placeholder, input.wpcf7-not-valid:-ms-input-placeholder, textarea.wpcf7-not-valid:-ms-input-placeholder {
+input.error:input-placeholder, textarea.error:input-placeholder, input.wpcf7valid:input-placeholder, textarea.wpcf7-not-valid:-ms-input-placeholder {
   color: red;
 }
 
-input.error::input-placeholder, textarea.error::input-placeholder, input.wpcf7-not-valid::-webkit-input-placeholder, textarea.wpcf7-not-valid::-webkit-input-placeholder {
+input.error::input-placeholder, textarea.error::input-placeholder, input.wpcf7valid::input-placeholder, textarea.wpcf7-not-valid::-webkit-input-placeholder {
   color: red;
 }
 
