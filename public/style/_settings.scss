@@ -3,7 +3,7 @@
 /* Background Colors */
 $default_bg: #101010;
 $extra_bg: #1e1e1e;
-$lines_color: rgba(255, 255, 255, 0.07);
+$lines_color: rgb(255 255 255 / 7%);
 
 /* Colors */
 $default_color: #bbb;
@@ -29,31 +29,19 @@ $default_icon_size: 36px;
 /* Line Height */
 $line_height: 1.5;
 
-/*Mixins*/
+/* Mixins */
 @mixin border-radius($radius) {
-	border-radius: $radius;
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	-khtml-border-radius: $radius;
+  border-radius: $radius;
 }
 
 @mixin box-shadow($param) {
-	box-shadow: $param;
-	-moz-box-shadow: $param;
-	-webkit-box-shadow: $param;
-	-khtml-box-shadow: $param;
+  box-shadow: $param;
 }
 
 @mixin transition($param) {
-	transition: $param;
-	-moz-transition: $param;
-	-webkit-transition: $param;
-	-o-transition: $param;
+  transition: $param;
 }
 
 @mixin transform($param) {
-	transform: $param;
-	-webkit-transform: $param;
-	-moz-transform: $param;
-	-o-transform: $param;
+  transform: $param;
 }
