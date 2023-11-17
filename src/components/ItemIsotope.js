@@ -375,7 +375,7 @@ const ItemIsotope = () => {
                             className="has-popup-gallery hover-animated"
                         >
                             <Image
-                                src="/images/work5.jpg"
+                                src="/images/work7.png"
                                 className="wp-post-image"
                                 alt=""
                                 width={1000}
@@ -385,25 +385,19 @@ const ItemIsotope = () => {
                             <span className="info circle">
                                 <span className="centralize full-width">
                                     <span className="vertical-center">
-                                        <span className="icon fas fa-images" />
+                                        <span className="icon fas fa-palette" />
                                         <span className="desc">
                                             <span className="category">
-                                                Gallery
+                                                design
                                             </span>
                                             <span className="name">
-                                                Undulating Space
+                                                Scrimba Projects / Reactjs
                                             </span>
                                         </span>
                                     </span>
                                 </span>
                             </span>
                         </a>
-                        <div id="gallery-2" className="mfp-hide">
-                            <a href="/images/work5.jpg" />
-                            <a href="/images/work1.jpg" />
-                            <a href="/images/work2.jpg" />
-                            <a href="/images/work3.jpg" />
-                        </div>
                     </div>
                 </div>
                 <div className="box-item f-content">
@@ -413,7 +407,7 @@ const ItemIsotope = () => {
                             className="has-popup-media hover-animated"
                         >
                             <Image
-                                src="/images/work8.jpg"
+                                src="/images/work6.png"
                                 className="wp-post-image"
                                 alt=""
                                 width={1000}
@@ -426,10 +420,10 @@ const ItemIsotope = () => {
                                         <span className="icon fas fa-plus" />
                                         <span className="desc">
                                             <span className="category">
-                                                Content
+                                                content
                                             </span>
                                             <span className="name">
-                                                Curved Ceiling Ribs
+                                                Redux Expenses
                                             </span>
                                         </span>
                                     </span>
@@ -442,59 +436,71 @@ const ItemIsotope = () => {
                             <div
                                 className="image"
                                 style={{
-                                    backgroundImage: 'url(/images/work8.jpg)',
+                                    backgroundImage: 'url(/images/work6.png)',
+                                    backgroundSize: 'cover',
                                 }}
                             />
                             <div className="desc single-post-text">
-                                <div className="category">Content</div>
-                                <h4>Hand holding pyramid painting</h4>
-                                <p>
-                                    Now there is more fashion. There is no
-                                    so-called trends. Now chase after anything
-                                    not necessary — nor for fashionable color
-                                    nor the shape, nor for style. Think about
-                                    the content that you want to invest in a
-                                    created object, and only then will form. The
-                                    thing is your spirit. A spirit unlike forms
-                                    hard copy.
+                                <div className="category">content</div>
+                                <h4>Redux Expenses</h4>
+                                <p className="text-stone-50 indent-2 pb-4">
+                                    Managing finances effectively is a
+                                    cornerstone of success for any project or
+                                    website. As site owners, tracking expenses
+                                    and budget allocation is crucial. In this
+                                    guide, we&apos;ll explore how to build a
+                                    site budgeting application using Redux, a
+                                    powerful state management library for
+                                    JavaScript applications.
                                 </p>
-                                <ul>
+                                <h5>Why Redux for Budgeting?</h5>
+                                <p className="text-stone-50 indent-2 pb-4">
+                                    Redux offers a centralized store to manage
+                                    the application&apos;s state, making it
+                                    ideal for handling financial data. Its
+                                    unidirectional data flow simplifies tracking
+                                    and updating budgets, expenses, and
+                                    categories. Here&apos;s a step-by-step
+                                    process to create your Redux-powered site
+                                    budgeting app:
+                                </p>
+                                <ul className="text-stone-50 pb-4">
                                     <li>
-                                        Now there is more fashion. There is no
-                                        so-called trends.
+                                        Define Actions: Create action types &
+                                        action creators for adding, deleting, or
+                                        updating budgets and expenses.
                                     </li>
                                     <li>
-                                        Now chase after anything not necessary —
-                                        nor for fashionable color nor the shape,
-                                        nor for style.
+                                        Reducers: Write reducers to handle these
+                                        actions and update the state
+                                        accordingly. Maintain separate reducers
+                                        for budgets, expenses, and categories.
                                     </li>
                                     <li>
-                                        Think about the content that you want to
-                                        invest in a created object, and only
-                                        then will form.
-                                    </li>
-                                    <li>
-                                        The thing is your spirit. A spirit
-                                        unlike forms hard copy.
+                                        Connect Redux to Components: Use
+                                        React-Redux to connect your components
+                                        with the Redux store. Dispatch actions
+                                        from components to update the state.
                                     </li>
                                 </ul>
-                                <p>
-                                    Now there is more fashion. There is no
-                                    so-called trends. Now chase after anything
-                                    not necessary — nor for fashionable color
-                                    nor the shape, nor for style. Think about
-                                    the content that you want to invest in a
-                                    created object, and only then will form. The
-                                    thing is your spirit. A spirit unlike forms
-                                    hard copy.
+                                <p className="text-stone-50 indent-2 pb-4">
+                                    Building a budgeting app with Redux empowers
+                                    website owners to effectively manage their
+                                    finances. By centralizing data management
+                                    and enabling seamless updates, Redux
+                                    streamlines the budgeting process.
                                 </p>
-                                <Link
-                                    href="/works_single_1"
-                                    className="btn hover-animated"
-                                >
-                                    <span className="circle" />
-                                    <span className="lnk">View Project</span>
-                                </Link>
+                                <p className="pt-6 pb-4">
+                                    <Link
+                                        href="https://expenses-redux.netlify.app/"
+                                        className="btn hover-animated"
+                                    >
+                                        <span className="circle" />
+                                        <span className="lnk">
+                                            View Project
+                                        </span>
+                                    </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
