@@ -1,6 +1,8 @@
 # DevEdge
 
 > Live link can be found [here](https://devedge.vercel.app/)
+>
+[![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/devedge/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/devedge)
 
 Built with:
 
