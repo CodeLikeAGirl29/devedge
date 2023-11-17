@@ -5,9 +5,25 @@
  @import 'jarallax.css';
  @import 'layout.css';
  @import 'magnific-popup.css';
- @import 'solid.css';
  @import 'swiper.css';
-/* TABLE OF CONTENTS - Basic - Preloader - Container - Columns - Typography - Links - Buttons - Forms - Lists - Code - Tables - Alignment - Text Formating - Blockquote - Animations */
+
+/* TABLE OF CONTENTS
+ - Basic
+ - Preloader
+ - Container
+ - Columns
+ - Typography
+ - Links
+ - Buttons
+ - Forms
+ - Lists
+ - Code
+ - Tables
+ - Alignment
+ - Text Formating
+ - Blockquote
+ - Animations */
+
 /* - Basic */
  html {
      margin-right: 0 !important;
