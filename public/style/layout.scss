@@ -254,11 +254,18 @@
     position: absolute;
     opacity: 0;
     @include transform(translateY(32px));
+    position: absolute;
+    opacity: 0;
+
+    @include transform(translateY(32px));
 }
 
 .hover-masks a:hover .mask-lnk,
 .hover-masks-logo a:hover .mask-lnk {
     opacity: 1;
+    @include transform(translateY(-32px));
+    opacity: 1;
+
     @include transform(translateY(-32px));
 }
 
@@ -1552,105 +1559,105 @@
     @include border-radius(50%);
 }
 
-.skills.circles .progress.p51 .bar:after,
+.skills.circles .progress.p51 .bar::after,
 .skills.circles .progress.p51 .fill,
-.skills.circles .progress.p52 .bar:after,
+.skills.circles .progress.p52 .bar::after,
 .skills.circles .progress.p52 .fill,
-.skills.circles .progress.p53 .bar:after,
+.skills.circles .progress.p53 .bar::after,
 .skills.circles .progress.p53 .fill,
-.skills.circles .progress.p54 .bar:after,
+.skills.circles .progress.p54 .bar::after,
 .skills.circles .progress.p54 .fill,
-.skills.circles .progress.p55 .bar:after,
+.skills.circles .progress.p55 .bar::after,
 .skills.circles .progress.p55 .fill,
-.skills.circles .progress.p56 .bar:after,
+.skills.circles .progress.p56 .bar::after,
 .skills.circles .progress.p56 .fill,
-.skills.circles .progress.p57 .bar:after,
+.skills.circles .progress.p57 .bar::after,
 .skills.circles .progress.p57 .fill,
-.skills.circles .progress.p58 .bar:after,
+.skills.circles .progress.p58 .bar::after,
 .skills.circles .progress.p58 .fill,
-.skills.circles .progress.p59 .bar:after,
+.skills.circles .progress.p59 .bar::after,
 .skills.circles .progress.p59 .fill,
-.skills.circles .progress.p60 .bar:after,
+.skills.circles .progress.p60 .bar::after,
 .skills.circles .progress.p60 .fill,
-.skills.circles .progress.p61 .bar:after,
+.skills.circles .progress.p61 .bar::after,
 .skills.circles .progress.p61 .fill,
-.skills.circles .progress.p62 .bar:after,
+.skills.circles .progress.p62 .bar::after,
 .skills.circles .progress.p62 .fill,
-.skills.circles .progress.p63 .bar:after,
+.skills.circles .progress.p63 .bar::after,
 .skills.circles .progress.p63 .fill,
-.skills.circles .progress.p64 .bar:after,
+.skills.circles .progress.p64 .bar::after,
 .skills.circles .progress.p64 .fill,
-.skills.circles .progress.p65 .bar:after,
+.skills.circles .progress.p65 .bar::after,
 .skills.circles .progress.p65 .fill,
-.skills.circles .progress.p66 .bar:after,
+.skills.circles .progress.p66 .bar::after,
 .skills.circles .progress.p66 .fill,
-.skills.circles .progress.p67 .bar:after,
+.skills.circles .progress.p67 .bar::after,
 .skills.circles .progress.p67 .fill,
-.skills.circles .progress.p68 .bar:after,
+.skills.circles .progress.p68 .bar::after,
 .skills.circles .progress.p68 .fill,
-.skills.circles .progress.p69 .bar:after,
+.skills.circles .progress.p69 .bar::after,
 .skills.circles .progress.p69 .fill,
-.skills.circles .progress.p70 .bar:after,
+.skills.circles .progress.p70 .bar::after,
 .skills.circles .progress.p70 .fill,
-.skills.circles .progress.p71 .bar:after,
+.skills.circles .progress.p71 .bar::after,
 .skills.circles .progress.p71 .fill,
-.skills.circles .progress.p72 .bar:after,
+.skills.circles .progress.p72 .bar::after,
 .skills.circles .progress.p72 .fill,
-.skills.circles .progress.p73 .bar:after,
+.skills.circles .progress.p73 .bar::after,
 .skills.circles .progress.p73 .fill,
-.skills.circles .progress.p74 .bar:after,
+.skills.circles .progress.p74 .bar::after,
 .skills.circles .progress.p74 .fill,
-.skills.circles .progress.p75 .bar:after,
+.skills.circles .progress.p75 .bar::after,
 .skills.circles .progress.p75 .fill,
-.skills.circles .progress.p76 .bar:after,
+.skills.circles .progress.p76 .bar::after,
 .skills.circles .progress.p76 .fill,
-.skills.circles .progress.p77 .bar:after,
+.skills.circles .progress.p77 .bar::after,
 .skills.circles .progress.p77 .fill,
-.skills.circles .progress.p78 .bar:after,
+.skills.circles .progress.p78 .bar::after,
 .skills.circles .progress.p78 .fill,
-.skills.circles .progress.p79 .bar:after,
+.skills.circles .progress.p79 .bar::after,
 .skills.circles .progress.p79 .fill,
-.skills.circles .progress.p80 .bar:after,
+.skills.circles .progress.p80 .bar::after,
 .skills.circles .progress.p80 .fill,
-.skills.circles .progress.p81 .bar:after,
+.skills.circles .progress.p81 .bar::after,
 .skills.circles .progress.p81 .fill,
-.skills.circles .progress.p82 .bar:after,
+.skills.circles .progress.p82 .bar::after,
 .skills.circles .progress.p82 .fill,
-.skills.circles .progress.p83 .bar:after,
+.skills.circles .progress.p83 .bar::after,
 .skills.circles .progress.p83 .fill,
-.skills.circles .progress.p84 .bar:after,
+.skills.circles .progress.p84 .bar::after,
 .skills.circles .progress.p84 .fill,
-.skills.circles .progress.p85 .bar:after,
+.skills.circles .progress.p85 .bar::after,
 .skills.circles .progress.p85 .fill,
-.skills.circles .progress.p86 .bar:after,
+.skills.circles .progress.p86 .bar::after,
 .skills.circles .progress.p86 .fill,
-.skills.circles .progress.p87 .bar:after,
+.skills.circles .progress.p87 .bar::after,
 .skills.circles .progress.p87 .fill,
-.skills.circles .progress.p88 .bar:after,
+.skills.circles .progress.p88 .bar::after,
 .skills.circles .progress.p88 .fill,
-.skills.circles .progress.p89 .bar:after,
+.skills.circles .progress.p89 .bar::after,
 .skills.circles .progress.p89 .fill,
-.skills.circles .progress.p90 .bar:after,
+.skills.circles .progress.p90 .bar::after,
 .skills.circles .progress.p90 .fill,
-.skills.circles .progress.p91 .bar:after,
+.skills.circles .progress.p91 .bar::after,
 .skills.circles .progress.p91 .fill,
-.skills.circles .progress.p92 .bar:after,
+.skills.circles .progress.p92 .bar::after,
 .skills.circles .progress.p92 .fill,
-.skills.circles .progress.p93 .bar:after,
+.skills.circles .progress.p93 .bar::after,
 .skills.circles .progress.p93 .fill,
-.skills.circles .progress.p94 .bar:after,
+.skills.circles .progress.p94 .bar::after,
 .skills.circles .progress.p94 .fill,
-.skills.circles .progress.p95 .bar:after,
+.skills.circles .progress.p95 .bar::after,
 .skills.circles .progress.p95 .fill,
-.skills.circles .progress.p96 .bar:after,
+.skills.circles .progress.p96 .bar::after,
 .skills.circles .progress.p96 .fill,
-.skills.circles .progress.p97 .bar:after,
+.skills.circles .progress.p97 .bar::after,
 .skills.circles .progress.p97 .fill,
-.skills.circles .progress.p98 .bar:after,
+.skills.circles .progress.p98 .bar::after,
 .skills.circles .progress.p98 .fill,
-.skills.circles .progress.p99 .bar:after,
+.skills.circles .progress.p99 .bar::after,
 .skills.circles .progress.p99 .fill,
-.skills.circles .progress.p100 .bar:after,
+.skills.circles .progress.p100 .bar::after,
 .skills.circles .progress.p100 .fill {
     @include transform(rotate(180deg));
 }
@@ -2525,7 +2532,7 @@
 }
 
 /* section pricing tablet */
-@media (max-width: 1199px) {
+@media (width <= 1199px) {
 }
 
 /* section pricing mobile */
@@ -2598,7 +2605,7 @@
 }
 
 /* section team tablet */
-@media (max-width: 1199px) {
+@media (width <= 1199px) {
 }
 
 /* section team mobile */
@@ -2678,7 +2685,7 @@
 }
 
 /* section testimonials tablet */
-@media (max-width: 1199px) {
+@media (width <= 1199px) {
 }
 
 /* section testimonials mobile */
@@ -3819,8 +3826,8 @@ object {
 .background-enabled .header,
 .background-enabled .footer,
 .background-enabled-footer .footer,
-.background-enabled .glitch-effect:before,
-.background-enabled .glitch-effect:after,
+.background-enabled .glitch-effect::before,
+.background-enabled .glitch-effect::after,
 .background-enabled .section.started {
     background: transparent;
     border-bottom-color: transparent;
