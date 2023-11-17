@@ -3327,6 +3327,10 @@
   height: auto;
 }
 
+.img-wrapper img {
+  margin: 15px;
+}
+
 .single-post-text p:last-child {
   margin-bottom: 0;
 }

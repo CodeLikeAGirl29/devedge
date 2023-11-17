@@ -171,7 +171,7 @@ const ItemIsotope = () => {
                     {/* add class "animate-to-page" if need animated transition to page and delete target="_blank" rel="noreferrer" */}
                     <div className="image">
                         <a
-                            href="#gallery-1"
+                            href="https://codelikeagirl29.github.io/blog/"
                             className="has-popup-gallery hover-animated"
                         >
                             <Image
@@ -185,10 +185,10 @@ const ItemIsotope = () => {
                             <span className="info circle">
                                 <span className="centralize full-width">
                                     <span className="vertical-center">
-                                        <span className="icon fas fa-palette" />
+                                        <span className="icon fas fa-code" />
                                         <span className="desc">
                                             <span className="category">
-                                                design
+                                                code
                                             </span>
                                             <span className="name">
                                                 Blog Template
@@ -198,12 +198,12 @@ const ItemIsotope = () => {
                                 </span>
                             </span>
                         </a>
-                        <div id="gallery-1" className="mfp-hide">
+                        {/*<div id="gallery-1" className="mfp-hide">
                             <a href="/images/work1.png" />
                             <a href="/images/work5.png" />
                             <a href="/images/work3.png" />
                             <a href="images/work4.png" />
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
                 <div className="box-item f-design">
@@ -243,7 +243,7 @@ const ItemIsotope = () => {
                 <div className="box-item f-frontend">
                     <div className="image">
                         <a
-                            href="https://www.githb.com/codelikeagirl29/gitprofile"
+                            href="https://www.github.com/codelikeagirl29/gitprofile"
                             className="has-popup-design hover-animated"
                         >
                             <Image
@@ -339,11 +339,11 @@ const ItemIsotope = () => {
                 <div className="box-item f-frontend">
                     <div className="image">
                         <a
-                            href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
+                            href="http://dictionarium.vercel.app/"
                             className="has-popup-frontend hover-animated"
                         >
                             <Image
-                                src="/images/work6.jpg"
+                                src="/images/work5.png"
                                 className="wp-post-image"
                                 alt=""
                                 width={1000}
@@ -353,13 +353,13 @@ const ItemIsotope = () => {
                             <span className="info circle">
                                 <span className="centralize full-width">
                                     <span className="vertical-center">
-                                        <span className="icon fas fa-frontend" />
+                                        <span className="icon fas fa-code" />
                                         <span className="desc">
                                             <span className="category">
                                                 frontend
                                             </span>
                                             <span className="name">
-                                                Dark Bike
+                                                Dictionarium
                                             </span>
                                         </span>
                                     </span>
