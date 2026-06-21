@@ -612,19 +612,19 @@ label.error, .wpcf7-not-valid-tip {
   display: none !important;
 }
 
-input.error::placeholder, textarea.error::placeholder, input.wpcf7valid::placeholder, textarea.wpcf7-not-valid::-moz-placeholder {
+input.error::placeholder, textarea.error::placeholder, input.wpcf7valid::placeholder, textarea.wpcf7-not-valid::placeholder {
   color: red;
 }
 
-input.error:placeholder, textarea.error:placeholder, input.wpcf7valid:placeholder, textarea.wpcf7-not-valid:-moz-placeholder {
+input.error:placeholder, textarea.error:placeholder, input.wpcf7valid:placeholder, textarea.wpcf7-not-valid:placeholder {
   color: red;
 }
 
-input.error:input-placeholder, textarea.error:input-placeholder, input.wpcf7valid:input-placeholder, textarea.wpcf7-not-valid:-ms-input-placeholder {
+input.error:input-placeholder, textarea.error:input-placeholder, input.wpcf7valid:input-placeholder, textarea.wpcf7-not-valid:input-placeholder {
   color: red;
 }
 
-input.error::input-placeholder, textarea.error::input-placeholder, input.wpcf7valid::input-placeholder, textarea.wpcf7-not-valid::-webkit-input-placeholder {
+input.error::input-placeholder, textarea.error::input-placeholder, input.wpcf7valid::input-placeholder, textarea.wpcf7-not-valid::input-placeholder {
   color: red;
 }
 
@@ -645,11 +645,11 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input[type="checkbox"] {
-  appearance: checkbox;
+  appearance: auto;
 }
 
 input[type="radio"] {
-  appearance: radio;
+  appearance: auto;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="submit"], textarea, button {
