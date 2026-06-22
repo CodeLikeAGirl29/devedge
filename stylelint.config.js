@@ -3,6 +3,6 @@
     "rules": {
         "indentation": 2,
         "color-hex-length": "short",
-        "selector-attribute-quotes": "always"
+        "media-feature-colon-space-before": "never"
     }
 }
