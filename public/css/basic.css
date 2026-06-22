@@ -33,7 +33,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #bbb;
@@ -45,7 +45,7 @@ body {
   text-rendering: optimizelegibility;
 }
 
-body.scroll_hidden {
+body.scroll-hidden {
   overflow: hidden;
   height: 100vh;
 }
@@ -135,16 +135,39 @@ body.scroll_hidden {
   z-index: 1111;
 }
 
-.lines.no-lines .line-col::before {
-  opacity: 0;
-}
-
 .lines .line-col {
   position: relative;
   display: inline-block;
   vertical-align: top;
   width: 20%;
   height: 100vh;
+}
+
+.lines .line-col::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 0%;
+  background: rgb(255 255 255 / 7%);
+  transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+}
+
+.lines .line-col::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #1E1E1E;
+  z-index: 12;
+  transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+}
+
+.lines.no-lines .line-col::before {
+  opacity: 0;
 }
 
 .lines .line-col:first-child::before {
@@ -215,29 +238,6 @@ body.scroll_hidden {
   top: 0;
   bottom: auto;
   transition-delay: 1s;
-}
-
-.lines .line-col::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1px;
-  height: 0%;
-  background: rgb(255 255 255 / 7%);
-  transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
-}
-
-.lines .line-col::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #1E1E1E;
-  z-index: 12;
-  transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 
 .lines.finish .line-col::before {
@@ -343,7 +343,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 0;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -457,17 +457,8 @@ a:hover {
   font-size: 0;
 }
 
-.bts-list .btn {
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.bts-list .btn:last-child {
-  margin-right: 0;
-}
-
-a.btn,
 .btn,
+a.btn,
 .single-post-text input[type="submit"] {
   margin-bottom: 10px;
   position: relative;
@@ -487,8 +478,8 @@ a.btn,
   transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 
-a.btn .lnk,
-.btn .lnk {
+.btn .lnk,
+a.btn .lnk {
   padding: 0 30px;
   position: relative;
   display: block;
@@ -496,15 +487,24 @@ a.btn .lnk,
   pointer-events: none;
 }
 
-a.btn:hover,
-.btn:hover {
+.btn:hover,
+a.btn:hover {
   color: #101010;
+}
+
+.bts-list .btn {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.bts-list .btn:last-child {
+  margin-right: 0;
 }
 
 @media screen and (width <=720px) {
 
-  a.btn,
   .btn,
+  a.btn,
   .single-post-text input[type="submit"] {
     font-size: 0.875rem;
   }
@@ -515,33 +515,6 @@ form.post-password-form {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-}
-
-input,
-textarea,
-button {
-  display: block;
-  font-family: Roboto;
-  font-size: 1rem;
-  height: 50px;
-  width: 100%;
-  color: #eee;
-  margin-bottom: 30px;
-  padding: 0;
-  background: none !important;
-  border: none;
-  border-bottom: 1px solid rgb(255 255 255 / 7%);
-  resize: none;
-  outline: 0;
-  border-radius: 0%;
-  transition: all 0.3s ease 0s;
-}
-
-input:focus,
-textarea:focus,
-button:focus {
-  color: #eee;
-  border-bottom: 1px solid #eee;
 }
 
 textarea {
@@ -564,11 +537,38 @@ button:hover {
   border-bottom: 1px solid #bbd1f3;
 }
 
+input,
+textarea,
+button {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  height: 50px;
+  width: 100%;
+  color: #eee;
+  margin-bottom: 30px;
+  padding: 0;
+  background: none !important;
+  border: none;
+  border-bottom: 1px solid rgb(255 255 255 / 7%);
+  resize: none;
+  outline: 0;
+  border-radius: 0%;
+  transition: all 0.3s ease 0s;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  color: #eee;
+  border-bottom: 1px solid #eee;
+}
+
 label,
 legend {
   display: block;
   padding-bottom: 10px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 0.813rem;
 }
 
@@ -577,39 +577,12 @@ fieldset {
   padding: 0;
 }
 
-::input-placeholder {
-  color: #999;
-}
-
-:placeholder {
-  color: #999;
-}
-
 ::placeholder {
   color: #999;
 }
 
-:input-placeholder {
-  color: #999;
-}
-
-input:focus::input-placeholder,
-textarea:focus::input-placeholder {
-  color: #eee;
-}
-
-input:focus:placeholder,
-textarea:focus:placeholder {
-  color: #eee;
-}
-
 input:focus::placeholder,
 textarea:focus::placeholder {
-  color: #eee;
-}
-
-input:focus:input-placeholder,
-textarea:focus:input-placeholder {
   color: #eee;
 }
 
@@ -629,27 +602,6 @@ input.error::placeholder,
 textarea.error::placeholder,
 input.wpcf7valid::placeholder,
 textarea.wpcf7-not-valid::placeholder {
-  color: red;
-}
-
-input.error:placeholder,
-textarea.error:placeholder,
-input.wpcf7valid:placeholder,
-textarea.wpcf7-not-valid:placeholder {
-  color: red;
-}
-
-input.error:input-placeholder,
-textarea.error:input-placeholder,
-input.wpcf7valid:input-placeholder,
-textarea.wpcf7-not-valid:input-placeholder {
-  color: red;
-}
-
-input.error::input-placeholder,
-textarea.error::input-placeholder,
-input.wpcf7valid::input-placeholder,
-textarea.wpcf7-not-valid::input-placeholder {
   color: red;
 }
 
@@ -730,7 +682,7 @@ ol ul {
 
 /* - Code */
 code {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   padding: 0 4px;
   font-style: italic;
   color: #999;
@@ -744,7 +696,7 @@ code {
 
 pre {
   background: #f6f6f6;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 30px 0;
   padding: 30px;
   max-width: 100%;
@@ -906,7 +858,7 @@ dd {
 
 /* - Blockquote */
 blockquote {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 /* - Animations */
