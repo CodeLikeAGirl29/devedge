@@ -56,7 +56,7 @@ button:hover {
   background: #f3e367;
 }
 
-.skills.list ul li .name:before {
+.skills.list ul li .name::before {
   color: #f3e367;
 }
 
@@ -140,8 +140,8 @@ blockquote {
   border-left-color: #f3e367;
 }
 
-.single-post-text ul > li:before,
-.comment-text ul > li:before {
+.single-post-text ul > li::before,
+.comment-text ul > li::before {
   background: #f3e367;
 }
 

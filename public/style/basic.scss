@@ -637,29 +637,29 @@ label.error,
 
 input.error::placeholder,
 textarea.error::placeholder,
-input.wpcf7-not-valid::-moz-placeholder,
-textarea.wpcf7-not-valid::-moz-placeholder {
+input.wpcf7-not-valid::placeholder,
+textarea.wpcf7-not-valid::placeholder {
   color: $error_color;
 }
 
 input.error:placeholder,
 textarea.error:placeholder,
-input.wpcf7-not-valid:-moz-placeholder,
-textarea.wpcf7-not-valid:-moz-placeholder {
+input.wpcf7-not-valid:placeholder,
+textarea.wpcf7-not-valid:placeholder {
   color: $error_color;
 }
 
 input.error:input-placeholder,
 textarea.error:input-placeholder,
-input.wpcf7-not-valid:-ms-input-placeholder,
-textarea.wpcf7-not-valid:-ms-input-placeholder {
+input.wpcf7-not-valid:input-placeholder,
+textarea.wpcf7-not-valid:input-placeholder {
   color: $error_color;
 }
 
 input.error::input-placeholder,
 textarea.error::input-placeholder,
-input.wpcf7-not-valid::-webkit-input-placeholder,
-textarea.wpcf7-not-valid::-webkit-input-placeholder {
+input.wpcf7-not-valid::input-placeholder,
+textarea.wpcf7-not-valid::input-placeholder {
   color: $error_color;
 }
 
@@ -682,11 +682,11 @@ input[type="radio"] {
 }
 
 input[type="checkbox"] {
-  appearance: checkbox;
+  appearance: auto;
 }
 
 input[type="radio"] {
-  appearance: radio;
+  appearance: auto;
 }
 
 input[type="text"],
