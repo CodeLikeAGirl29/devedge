@@ -6,6 +6,7 @@ Copyright (c) 2015 Daniel Eden
 */
 
 @keyframes sk-bounce {
+
   0%,
   100% {
     transform: scale(0);
@@ -17,6 +18,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes sk-bounce {
+
   0%,
   100% {
     transform: scale(0);
@@ -69,6 +71,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   53%,
@@ -95,6 +98,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   53%,
@@ -126,6 +130,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes flash {
+
   0%,
   50%,
   100% {
@@ -139,6 +144,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes flash {
+
   0%,
   50%,
   100% {
@@ -254,6 +260,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: translate3d(0, 0, 0);
@@ -276,6 +283,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: translate3d(0, 0, 0);
@@ -477,6 +485,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes jello {
+
   0%,
   11.1%,
   100% {
@@ -513,6 +522,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes jello {
+
   0%,
   11.1%,
   100% {
@@ -554,44 +564,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceIn {
-  0%,
-  20%,
-  40%,
-  60%,
-  80%,
-  100% {
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
 
-  0% {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  20% {
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-
-  40% {
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-
-  60% {
-    opacity: 1;
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-
-  80% {
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes bounceIn {
   0%,
   20%,
   40%,
@@ -634,6 +607,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInDown {
+
   0%,
   60%,
   75%,
@@ -666,6 +640,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInDown {
+
   0%,
   60%,
   75%,
@@ -702,6 +677,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInLeft {
+
   0%,
   60%,
   75%,
@@ -734,6 +710,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInLeft {
+
   0%,
   60%,
   75%,
@@ -770,6 +747,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInRight {
+
   0%,
   60%,
   75%,
@@ -802,6 +780,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInRight {
+
   0%,
   60%,
   75%,
@@ -838,6 +817,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInUp {
+
   0%,
   60%,
   75%,
@@ -870,6 +850,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInUp {
+
   0%,
   60%,
   75%,
@@ -1562,14 +1543,12 @@ Copyright (c) 2015 Daniel Eden
   }
 
   40% {
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     animation-timing-function: ease-out;
   }
 
   50% {
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
     animation-timing-function: ease-in;
   }
 
@@ -1591,14 +1570,12 @@ Copyright (c) 2015 Daniel Eden
   }
 
   40% {
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     animation-timing-function: ease-out;
   }
 
   50% {
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
     animation-timing-function: ease-in;
   }
 
