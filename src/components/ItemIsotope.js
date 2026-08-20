@@ -180,7 +180,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={700}
                                 height={1000}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -220,7 +220,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={700}
                                 height={1000}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -252,7 +252,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={1000}
                                 height={800}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -284,7 +284,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={700}
                                 height={1000}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -316,7 +316,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={750}
                                 height={900}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -348,7 +348,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={1000}
                                 height={800}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -380,7 +380,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={1000}
                                 height={800}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">
@@ -412,7 +412,7 @@ const ItemIsotope = () => {
                                 alt=""
                                 width={1000}
                                 height={800}
-                                layout={'responsive'}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <span className="info circle">
                                 <span className="centralize full-width">

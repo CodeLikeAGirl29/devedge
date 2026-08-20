@@ -226,21 +226,21 @@ const SingleBlog = () => {
                                         alt=""
                                         width={300}
                                         height={400}
-                                        layout="responsive"
+                                        style={{ width: "100%", height: "auto" }}
                                     />
                                     <Image
                                         src="/images/singleblog-2.png"
                                         alt=""
                                         width={300}
                                         height={400}
-                                        layout="responsive"
+                                        style={{ width: "100%", height: "auto" }}
                                     />
                                     <Image
                                         src="/images/singleblog-3.png"
                                         alt=""
                                         width={300}
                                         height={400}
-                                        layout="responsive"
+                                        style={{ width: "100%", height: "auto" }}
                                     />
                                 </div>
                             </div>

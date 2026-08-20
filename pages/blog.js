@@ -34,7 +34,7 @@ const Blog = () => {
                                                 alt="Blog screenshot"
                                                 width={600}
                                                 height={650}
-                                                layout="responsive"
+                                                style={{ width: "100%", height: "auto" }}
                                             />
                                             <span className="info">
                                                 <span className="centralize full-width">
@@ -92,7 +92,7 @@ const Blog = () => {
                                                 alt="Gatsby 101"
                                                 width={600}
                                                 height={650}
-                                                layout="responsive"
+                                                style={{ width: "100%", height: "auto" }}
                                             />
                                             <span className="info">
                                                 <span className="centralize full-width">
@@ -149,7 +149,7 @@ const Blog = () => {
                                                 alt="frontend dev handbook"
                                                 width={600}
                                                 height={650}
-                                                layout="responsive"
+                                                style={{ width: "100%", height: "auto" }}
                                             />
                                             <span className="info">
                                                 <span className="centralize full-width">
@@ -253,7 +253,7 @@ const Blog = () => {
                                                 alt="Styling with CSS"
                                                 width={600}
                                                 height={650}
-                                                layout="responsive"
+                                                style={{ width: "100%", height: "auto" }}
                                             />
                                             <span className="info">
                                                 <span className="centralize full-width">
@@ -302,7 +302,7 @@ const Blog = () => {
                                             className="search-field"
                                             id="search-input"
                                             placeholder="Search ..."
-                                            value=""
+                                            defaultValue=""
                                         />
                                         <input
                                             type="submit"

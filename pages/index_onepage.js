@@ -114,8 +114,8 @@ const IndexOnePage = () => {
 							<Image
 								src="/images/avatar-img.png"
 								alt=""
-								layout="fill"
-								objectFit="contain"
+								fill
+								style={{ objectFit: "contain" }}
 							/>
 						</div>
 						{/* desc */}
@@ -546,7 +546,7 @@ const IndexOnePage = () => {
 											alt=""
 											height={750}
 											width={600}
-											layout={"responsive"}
+											style={{ width: "100%", height: "auto" }}
 										/>
 									</div>
 									<div className="desc">
