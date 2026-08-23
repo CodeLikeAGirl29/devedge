@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const BlogPost = () => {
     const typingAnimation = [
-        "<span class='typed-bread'><a href='#'>Design</a> / 20 July 2022</span>",
+        "<span class='typed-bread'><a href='#'>Design</a> / 12 Feb 2026</span>",
     ];
     return (
         <Layout>
@@ -28,36 +28,38 @@ const BlogPost = () => {
                                     first-letter:text-5xl             first-letter:text-7xl first-letter:font-bold first-letter:text-white
                                     first-letter:mr-3 first-letter:mr-3 first-letter:float-left"
                                 >
-                                    We should pause for a moment to clarify the
+                                    Let&apos;s start by clarifying the
                                     differences between a front end developer,
-                                    back end developer, and full stack
-                                    developer. Let&apos;s put this in simple
-                                    terms: a front end developer is responsible
-                                    for the parts of an app or website that
-                                    users see and interact with. A back end
-                                    developer takes care of the &apos;behind the
-                                    scenes&apos; matters such as infrastructure
-                                    and databases. The full-stack developer is a
-                                    mixture of both, a jack of all trades that
-                                    can handle the whole design process from the
-                                    beginning to the end.
+                                    a back end developer, and a full-stack
+                                    developer. In simple terms: a front end
+                                    developer builds the parts of an app or
+                                    website that people actually see and
+                                    interact with. A back end developer
+                                    handles the infrastructure, databases, and
+                                    business logic running behind the scenes.
+                                    A full-stack developer moves comfortably
+                                    between both, equally at home in a
+                                    database schema and a UI polish pass.
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    Note that there&apos;s a trend these days
-                                    where the line between the front end and
-                                    back end development has been blurring.
-                                    Primarily since many of the tasks that fall
-                                    in the domain of back end developers are
-                                    being increasingly handled by the front end
-                                    developers.
+                                    That line keeps getting blurrier. Modern
+                                    meta-frameworks like Next.js let front end
+                                    developers write server-side logic, handle
+                                    data fetching, and manage API routes
+                                    without ever leaving their React codebase.
+                                    Server components and edge functions mean
+                                    more of what used to be strictly
+                                    &apos;back end&apos; work now lives
+                                    comfortably in a front end
+                                    developer&apos;s toolkit.
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    As a final aside, there are also full-stack
-                                    engineers. They are full-stack developers
-                                    who have project management experience,
-                                    adept at disciplines in the configuring,
-                                    managing, and maintaining computer networks
-                                    and systems.
+                                    Then there are full-stack engineers:
+                                    full-stack developers with the added
+                                    experience of owning a project end to end,
+                                    from architecture decisions through
+                                    deployment pipelines and the systems that
+                                    keep it all running.
                                 </p>
                                 <blockquote className="text-lg italic font-semibold text-gray-800 dark:text-white">
                                     <svg
@@ -73,24 +75,22 @@ const BlogPost = () => {
                                     like a sports car with no engine.
                                 </blockquote>
                                 <p className="text-stone-50 indent-2 pt-6">
-                                    As a frontend developer, I thrive on the art
-                                    of crafting engaging and user-friendly
-                                    digital experiences. My world revolves
-                                    around transforming design concepts into
-                                    interactive websites and web applications,
-                                    where every pixel, animation, and
-                                    interaction counts. I meticulously code in
-                                    HTML, CSS, and JavaScript to ensure that the
-                                    user interface not only looks visually
-                                    appealing but also functions seamlessly
-                                    across various devices and browsers.
-                                    Constantly keeping an eye on the latest
-                                    design trends and emerging web technologies,
-                                    I aim to create a seamless bridge between
-                                    the user&apos;s needs and the digital world,
-                                    striving to provide them with intuitive and
-                                    visually stunning online experiences that
-                                    leave a lasting impression.
+                                    As a frontend developer, I thrive on
+                                    turning design concepts into interactive,
+                                    genuinely usable experiences. My day to
+                                    day lives in React and Next.js, with
+                                    Tailwind CSS handling the styling and
+                                    TypeScript keeping things honest as a
+                                    project grows. I care as much about how an
+                                    interface feels to use as how it looks —
+                                    making sure it holds up across devices,
+                                    screen readers, and slow connections, not
+                                    just the browser open on my monitor.
+                                    Staying current with the ecosystem is part
+                                    of the job; the tools change every year,
+                                    but the goal stays the same: build
+                                    something people can use without having to
+                                    think about it.
                                 </p>
                                 <div className="image-wrapper py-8 relative h-48 w-48 md:h-96 md:w-96">
                                     <Image
@@ -101,21 +101,40 @@ const BlogPost = () => {
                                     />
                                 </div>
                                 <h2 className="heading text-2xl text-blue-400">
-                                    Reasons to become a Frontend Developer...
+                                    Reasons to Become a Frontend Developer
                                 </h2>
                                 <ul>
-                                    <li>You&apos;ll be in high demand.</li>
-                                    <li>You can work anywhere in the world.</li>
                                     <li>
-                                        You won&apos;t get bored working on a
-                                        variety of projects.
+                                        You&apos;re building the part of the
+                                        product people actually touch — the
+                                        impact is immediate and visible.
                                     </li>
-                                    <li>Excellent salary.</li>
-                                    <li>You wont need a college degree.</li>
+                                    <li>
+                                        Frontend skills travel well: remote
+                                        work is common, and demand spans
+                                        nearly every industry.
+                                    </li>
+                                    <li>
+                                        No two projects look the same —
+                                        you&apos;re constantly picking up new
+                                        patterns, tools, and problems to
+                                        solve.
+                                    </li>
+                                    <li>
+                                        Strong earning potential, especially
+                                        as you specialize in performance,
+                                        accessibility, or design systems.
+                                    </li>
+                                    <li>
+                                        A degree can help, but it&apos;s not a
+                                        hard requirement — a solid portfolio
+                                        and demonstrable skills carry real
+                                        weight.
+                                    </li>
                                 </ul>
                                 <h3 className="text-zinc-200 text-lg">
-                                    Programming languages commonly used for the
-                                    Frontend:
+                                    Core languages and tools I reach for on
+                                    the frontend:
                                 </h3>
                                 <div className="flex space-x-4">
                                     <Image

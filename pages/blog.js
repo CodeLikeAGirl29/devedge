@@ -89,7 +89,7 @@ const Blog = () => {
                                             <Image
                                                 src="/images/blog/blog_2.png"
                                                 className="wp-post-image"
-                                                alt="Gatsby 101"
+                                                alt="Why I Prefer Next.js"
                                                 width={600}
                                                 height={650}
                                                 style={{ width: "100%", height: "auto" }}
@@ -105,29 +105,26 @@ const Blog = () => {
                                     </div>
                                     <div className="desc">
                                         <div className="date">
-                                            08 August 2022
+                                            18 May 2026
                                         </div>
                                         <Link
                                             href="/blog_post3"
                                             className="name"
                                         >
-                                            Gatsby 101
+                                            Why I Prefer Next.js
                                         </Link>
                                         <div className="single-post-text">
                                             <p>
-                                                Discover how Gatsby.js, built on
-                                                React and GraphQL, offers
-                                                lightning-fast performance and
-                                                improved SEO by generating
-                                                static HTML files for your
-                                                website. We&apos;ll cover
-                                                everything from installing
-                                                Gatsby to creating a simple blog
-                                                site, and we&apos;ll also
-                                                explore its rich ecosystem of
-                                                plugins and themes, making it
-                                                easier than ever to build
-                                                interactive, content-rich sites.{' '}
+                                                Next.js is the React framework
+                                                I reach for by default:
+                                                flexible rendering, built-in
+                                                routing and layouts, and
+                                                data fetching that lives right
+                                                next to the components that
+                                                need it. Here&apos;s why it
+                                                beats juggling a separate
+                                                build tool, router, and data
+                                                layer yourself.{' '}
                                             </p>
                                         </div>
                                     </div>
@@ -330,12 +327,14 @@ const Blog = () => {
                                     </li>
                                     <li>
                                         <Link href="/blog_post3">
-                                            Gatsby.js 101
+                                            Why I Prefer Next.js
                                         </Link>
                                     </li>
 
                                     <li>
-                                        <Link href="#">Staying Productive</Link>
+                                        <Link href="/blog_post4">
+                                            Staying Productive
+                                        </Link>
                                     </li>
 
                                     <li>

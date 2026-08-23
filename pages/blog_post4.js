@@ -1,12 +1,13 @@
 import { ImagePageBanner } from '../src/components/PageBanner';
 import Layout from '../src/layout/Layout';
 import Link from 'next/link';
+import SocialShare from '../src/components/SocialShare';
 // import dynamic from "next/dynamic";
 import Image from 'next/image';
 
 const BlogPost = () => {
     const typingAnimation = [
-        "<span class='typed-bread'><a href='#'>Productivity</a> / Oct 28, 2023</span>",
+        "<span class='typed-bread'><a href='#'>Productivity</a> / Jun 15, 2026</span>",
     ];
     return (
         <Layout>
@@ -26,47 +27,35 @@ const BlogPost = () => {
                                     Developer&apos;s Guide to Efficiency
                                 </h1>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    In the dynamic world of web development,
-                                    productivity is not just a buzzword;
-                                    it&apos;s a necessity. As a web developer,
-                                    the ability to streamline your workflow,
-                                    manage your time effectively, & stay focused
-                                    on the task at hand can make all the
-                                    difference in the quality of your work. In
-                                    this blog post, we&apos;ll explore some
-                                    practical tips & strategies to help you
-                                    become a more productive web developer.
+                                    In web development, productivity
+                                    isn&apos;t a buzzword — it&apos;s what
+                                    determines whether you ship or burn out
+                                    trying. Streamlining your workflow,
+                                    managing your time, & staying focused on
+                                    the task in front of you makes a real
+                                    difference in the quality of your work &
+                                    how sustainable this career actually is.
+                                    Here are a few habits that have made the
+                                    biggest difference for me.
                                 </p>
                                 <p className="text-stone-50 indent-2">
-                                    In the fast-paced world of web development,
-                                    where lines of code weave the fabric of the
-                                    digital landscape, finding the delicate
-                                    equilibrium between work and life can be a
-                                    daunting task. As a web developer, the
-                                    demands of the ever-evolving tech industry
-                                    can easily tip the scales, but maintaining a
-                                    healthy work/life balance is not only
-                                    essential for personal well-being but also
-                                    for sustained professional success.
-                                    Let&apos;s explore some practical strategies
-                                    to navigate the intricate dance of work and
-                                    life, ensuring that your career thrives
-                                    without sacrificing your overall happiness
-                                    and fulfillment.
+                                    The pace of this industry makes it easy
+                                    to let work quietly take over the rest of
+                                    your life. Protecting a healthy balance
+                                    isn&apos;t just good for your wellbeing —
+                                    it&apos;s what keeps you doing good work
+                                    for years instead of burning out in
+                                    eighteen months. Let&apos;s look at a few
+                                    things that actually help.
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-8">
-                                    Establishing clear boundaries between work
-                                    and personal life is fundamental to
-                                    maintaining balance. Define specific working
-                                    hours and stick to them as much as possible.
-                                    Communicate your availability to colleagues
-                                    and clients, helping to manage expectations
-                                    and reduce the likelihood of work bleeding
-                                    into your personal time. This not only sets
-                                    a framework for your work but also provides
-                                    a psychological signal that it&apos;s time
-                                    to transition from professional to personal
-                                    responsibilities.
+                                    Set real working hours and communicate
+                                    them. Tell your team and clients when
+                                    you&apos;re actually online, and let that
+                                    boundary hold. It&apos;s a small thing,
+                                    but it does a lot of the work of
+                                    signaling — to yourself and everyone else
+                                    — when the workday is actually over.
                                 </p>
                                 <blockquote className="text-lg italic font-semibold text-gray-800 dark:text-white">
                                     <svg
@@ -120,20 +109,19 @@ const BlogPost = () => {
                                     </li>
                                     <li>
                                         <b>Choosing the Right Tools</b>:
-                                        Selecting the right tools for the job is
-                                        crucial for productivity. Whether
-                                        it&apos;s your text editor, integrated
-                                        development environment (IDE), or
-                                        project management tools, make sure you
-                                        are using tools that align with your
-                                        workflow and preferences. Popular
-                                        choices include{' '}
+                                        Selecting the right tools for the job
+                                        is crucial for productivity. Whether
+                                        it&apos;s your text editor,
+                                        integrated development environment
+                                        (IDE), or project management tools,
+                                        make sure you are using tools that
+                                        align with your workflow and
+                                        preferences. Popular choices include{' '}
                                         <i>
-                                            Visual Studio Code, Sublime Text, &
-                                            Atom
+                                            VS Code, Cursor, & WebStorm
                                         </i>{' '}
-                                        for text editing, &{' '}
-                                        <i>Jira or Trello</i> for project
+                                        for editing, &{' '}
+                                        <i>Linear or Notion</i> for project
                                         management.
                                     </li>
                                     <li>
@@ -154,12 +142,12 @@ const BlogPost = () => {
                                         Identify repetitive tasks in your
                                         workflow and automate them. Whether
                                         it&apos;s automating builds,
-                                        deployments, or testing, automation can
-                                        save you valuable time and reduce the
-                                        risk of human error. Tools like Gulp,
-                                        Webpack, and Jenkins are popular choices
-                                        for automating various aspects of web
-                                        development.
+                                        deployments, or testing, automation
+                                        can save you valuable time and reduce
+                                        the risk of human error. Tools like
+                                        Vite and GitHub Actions are popular
+                                        choices for automating various
+                                        aspects of web development.
                                     </li>
                                     <li>
                                         <b>Stay Up to Date</b>: Web development
@@ -182,16 +170,16 @@ const BlogPost = () => {
                                         errors.
                                     </li>
                                     <li>
-                                        <b>Continue to Learn & Have Fun</b>: The
-                                        world of web development is dynamic,
-                                        with new technologies emerging
-                                        regularly. Embrace a mindset of
-                                        continuous learning. Explore new
+                                        <b>Continue to Learn & Have Fun</b>:
+                                        The world of web development is
+                                        dynamic, with new technologies
+                                        emerging regularly. Embrace a mindset
+                                        of continuous learning. Explore new
                                         languages, frameworks, & methodologies
                                         to stay at the forefront of the
-                                        industry. Online platforms like Udacity,
-                                        Coursera, and freeCodeCamp offer a
-                                        wealth of resources for ongoing
+                                        industry. Frontend Masters,
+                                        egghead.io, and freeCodeCamp all offer
+                                        a wealth of resources for ongoing
                                         education.
                                     </li>
                                 </ul>
@@ -204,60 +192,23 @@ const BlogPost = () => {
                                     />
                                 </div>
                                 <p className="text-stone-50 indent-2">
-                                    Becoming a productive web developer is not
+                                    Becoming a productive web developer isn&apos;t
                                     just about writing code; it&apos;s about
                                     adopting a holistic approach to your work.
                                     By setting clear goals, using the right
                                     tools, staying organized, & embracing a
                                     mindset of continuous improvement, you can
                                     enhance your efficiency & deliver
-                                    high-quality results consistently. Remember,
-                                    productivity is a journey, not a
-                                    destination. Regularly assess & refine your
-                                    practices to stay on the path of continuous
-                                    improvement.
+                                    high-quality results consistently.
+                                    Productivity is a habit, not a
+                                    destination — regularly reassess & refine
+                                    your practices as your work and tools
+                                    change.
                                 </p>
                             </div>
 
                             <div className="post-text-bottom">
-                                <div className="social-share">
-                                    <span>Share:</span>
-                                    <Link
-                                        className="share-btn share-btn-facebook share-btn-1"
-                                        title="Share on Facebook"
-                                        href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flindseyk.dev%2F"
-                                    >
-                                        <i className="fab fa-facebook"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-twitter share-btn-2"
-                                        title="Share on Twitter"
-                                        href="https://twitter.com/"
-                                    >
-                                        <i className="fab fa-twitter"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-linkedin share-btn-3"
-                                        title="Share on Linkedin"
-                                        href="https://linkedin.com/"
-                                    >
-                                        <i className="fab fa-linkedin"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-reddit share-btn-4"
-                                        title="Share on Medium"
-                                        href="https://medium.com/"
-                                    >
-                                        <i className="fab fa-medium"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-pinterest share-btn-5"
-                                        title="Share on Pinterest"
-                                        href="https://pinterest.com/"
-                                    >
-                                        <i className="fab fa-pinterest"></i>
-                                    </Link>
-                                </div>
+                                <SocialShare />
                                 <div className="cat-links">
                                     <span>Posted in </span>
                                     <Link href="/categories/work-life">
@@ -290,7 +241,7 @@ const BlogPost = () => {
                             <div className="nav-previous">
                                 <Link
                                     href="/blog_post3"
-                                    title="Creating a Blog"
+                                    title="Why I Prefer Next.js"
                                 >
                                     <span className="post-nav-next post-nav-text">
                                         Prev

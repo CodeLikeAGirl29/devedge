@@ -1,12 +1,13 @@
 import { ImagePageBanner } from '../src/components/PageBanner';
 import Layout from '../src/layout/Layout';
 import Link from 'next/link';
+import SocialShare from '../src/components/SocialShare';
 // import dynamic from 'next/dynamic';
 import Image from 'next/image';
 
 const BlogPost2 = () => {
     const typingAnimation = [
-        "<span class='typed-bread'><a href='#'>Blogging</a> / Oct 4, 2023</span>",
+        "<span class='typed-bread'><a href='#'>Blogging</a> / Apr 6, 2026</span>",
     ];
     return (
         <Layout>
@@ -29,30 +30,24 @@ const BlogPost2 = () => {
                                     first-letter:text-5xl             first-letter:text-7xl first-letter:font-bold first-letter:text-white
                                     first-letter:mr-3 first-letter:mr-3 first-letter:float-left"
                                 >
-                                    Blogging has become a powerful medium for
-                                    self-expression, sharing knowledge, and
-                                    engaging with a global audience. Whether
-                                    you&apos;re a seasoned blogger or a novice,
-                                    crafting an engaging and well-structured
-                                    blog post is essential to capture the
-                                    attention of your readers and leave a
-                                    lasting impression. In this guide,
-                                    we&apos;ll take you through the process of
-                                    writing a blog post, step by step, to help
-                                    you create content that resonates with your
-                                    target audience and makes your blog stand
-                                    out in the crowded online space.
+                                    Blogging is still one of the best ways to
+                                    think out loud, share what you&apos;re
+                                    learning, and build a public track record
+                                    of your work. Whether you&apos;re writing
+                                    your first post or your fiftieth, a
+                                    well-structured post is what separates
+                                    something people skim past from something
+                                    they actually read, bookmark, and share.
+                                    Here&apos;s the process I use to go from a
+                                    blank page to a finished post.
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    In the ever-evolving world of technology,
-                                    sharing knowledge and insights through a
-                                    tech blog is not only a fantastic way to
-                                    contribute to the digital community but also
-                                    an opportunity to establish yourself as an
-                                    industry expert. Whether you&apos;re a
-                                    seasoned tech blogger or just starting out,
-                                    writing a compelling tech article that
-                                    resonates with your readers is essential.
+                                    For developers specifically, writing
+                                    regularly does double duty: it forces you
+                                    to actually understand what you built well
+                                    enough to explain it, and it puts a public
+                                    trail of your thinking in front of the
+                                    people who might one day hire you.
                                 </p>
 
                                 <blockquote className="text-lg italic font-semibold text-gray-800 dark:text-white">
@@ -80,14 +75,11 @@ const BlogPost2 = () => {
                                 >
                                     <li>Understand your Audience.</li>
                                     <li>Research Thoroughly.</li>
-                                    <li>
-                                        Plan your Blog Post. (creating an
-                                        outline)
-                                    </li>
+                                    <li>Outline Before You Write.</li>
                                     <li>Write a Compelling Introduction.</li>
-                                    <li>Create Engaging Content.</li>
+                                    <li>Create Engaging, Concrete Content.</li>
                                     <li>Edit & Proofread.</li>
-                                    <li>Optimize for SEO.</li>
+                                    <li>Optimize for Search & Readability.</li>
                                 </ol>
 
                                 <div className="image-wrapper p-4 relative h-48 w-48 md:h-96 md:w-96">
@@ -99,58 +91,19 @@ const BlogPost2 = () => {
                                     />
                                 </div>
                                 <p className="text-stone-50 indent-2 pb-2">
-                                    Writing a blog post is an art that combines
-                                    creativity and strategy. By selecting the
-                                    right topic, understanding your audience,
-                                    conducting thorough research, and following
-                                    a structured process, you can create content
-                                    that resonates with your readers and stands
-                                    out in the blogosphere. Remember that
-                                    practice makes perfect, so keep writing,
-                                    learning, and refining your skills to become
-                                    a master of the craft. Happy blogging!
+                                    Writing a good post is equal parts
+                                    creativity and structure. Pick a topic you
+                                    actually care about, know who you&apos;re
+                                    writing for, do the research, and follow a
+                                    process — and the rest tends to follow.
+                                    The more you write, the faster it gets and
+                                    the more your own voice comes through.
+                                    Happy writing!
                                 </p>
                             </div>
 
                             <div className="post-text-bottom">
-                                <div className="social-share">
-                                    <span>Share:</span>
-                                    <Link
-                                        className="share-btn share-btn-facebook share-btn-1"
-                                        title="Share on Facebook"
-                                        href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flindseyk.dev%2F"
-                                    >
-                                        <i className="fab fa-facebook"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-twitter share-btn-2"
-                                        title="Share on Twitter"
-                                        href="https://twitter.com/"
-                                    >
-                                        <i className="fab fa-twitter"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-linkedin share-btn-3"
-                                        title="Share on Linkedin"
-                                        href="https://linkedin.com/"
-                                    >
-                                        <i className="fab fa-linkedin"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-reddit share-btn-4"
-                                        title="Share on Medium"
-                                        href="https://medium.com/"
-                                    >
-                                        <i className="fab fa-medium"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-pinterest share-btn-5"
-                                        title="Share on Pinterest"
-                                        href="https://pinterest.com/"
-                                    >
-                                        <i className="fab fa-pinterest"></i>
-                                    </Link>
-                                </div>
+                                <SocialShare />
                                 <div className="cat-links">
                                     <span>Posted in </span>
                                     <Link href="/categories/blogging">
@@ -191,7 +144,7 @@ const BlogPost2 = () => {
                                 </Link>
                             </div>
                             <div className="nav-next">
-                                <Link href="/blog_post3" title="Gatsby 101">
+                                <Link href="/blog_post3" title="Why I Prefer Next.js">
                                     <span className="post-nav-prev post-nav-text">
                                         Next
                                     </span>

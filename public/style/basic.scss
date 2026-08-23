@@ -584,11 +584,6 @@ fieldset {
     padding: 0;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
-    display: inline;
-}
-
 ::input-placeholder {
     color: #999;
 }
@@ -672,10 +667,6 @@ div.wpcf7-response-output {
 input[type='checkbox'],
 input[type='radio'] {
     display: inline;
-}
-
-input[type='checkbox'],
-input[type='radio'] {
     width: auto;
     height: auto;
     margin-bottom: 10px;

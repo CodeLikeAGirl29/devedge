@@ -1,12 +1,12 @@
 import { ImagePageBanner } from '../src/components/PageBanner';
 import Layout from '../src/layout/Layout';
 import Link from 'next/link';
+import SocialShare from '../src/components/SocialShare';
 // import dynamic from "next/dynamic";
-import Image from 'next/image';
 
 const BlogPost = () => {
     const typingAnimation = [
-        "<span class='typed-bread'><a href='#'>Frontend</a> / Aug 08, 2023</span>",
+        "<span class='typed-bread'><a href='#'>Frontend</a> / May 18, 2026</span>",
     ];
     return (
         <Layout>
@@ -22,35 +22,44 @@ const BlogPost = () => {
                         <div className="content-box text-bg-dark">
                             <div className="single-post-text">
                                 <h1 className="heading text-2xl text-blue-400">
-                                    Why I Prefer Gatsby.js
+                                    Why I Prefer Next.js
                                 </h1>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    Gatsby.js is a modern website and web
-                                    application framework built on React,
-                                    GraphQL, and webpack. It&apos;s known for
-                                    its speed, performance, and ease of use.
-                                    Gatsby combines the benefits of static site
-                                    generation with the dynamic capabilities of
-                                    a JavaScript framework.
+                                    Next.js is a React framework built by
+                                    Vercel that handles routing, rendering,
+                                    and bundling out of the box, so you can
+                                    focus on the actual product instead of
+                                    wiring up tooling. It supports static
+                                    generation, server-side rendering, and
+                                    React Server Components in the same
+                                    project, which means you&apos;re rarely
+                                    stuck picking one rendering strategy for
+                                    an entire app.
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-4">
-                                    Note that there&apos;s a trend these days
-                                    where the line between the front end and
-                                    back end development has been blurring.
-                                    Primarily since many of the tasks that fall
-                                    in the domain of back end developers are
-                                    being increasingly handled by the front end
-                                    developers.
+                                    The frontend framework landscape has
+                                    shifted a lot over the past few years.
+                                    Tools that were popular a couple of years
+                                    ago — Gatsby chief among them — have
+                                    slowed down or lost momentum, while
+                                    React&apos;s ecosystem has consolidated
+                                    hard around a handful of meta-frameworks.
+                                    Next.js has become the default choice for
+                                    most new React projects, and for good
+                                    reason.
                                     <br />
                                 </p>
                                 <p className="text-stone-50 indent-2 pb-4">
                                     {' '}
-                                    As a final aside, there are also full-stack
-                                    engineers. They are full-stack developers
-                                    who have project management experience,
-                                    adept at disciplines in the configuring,
-                                    managing, and maintaining computer networks
-                                    and systems.
+                                    On my own projects, it&apos;s what I reach
+                                    for by default. The App Router gives me
+                                    file-based routing, built-in layouts, and
+                                    data fetching co-located with the
+                                    components that need it. Deployment is
+                                    close to zero-config on Vercel, and the
+                                    framework&apos;s conventions mean I spend
+                                    less time on setup and more time actually
+                                    building.
                                     <br />
                                 </p>
                                 <blockquote className="text-lg italic font-semibold text-gray-800 dark:text-white">
@@ -68,136 +77,86 @@ const BlogPost = () => {
                                     when there is nothing left to take away.
                                 </blockquote>
                                 <p className="text-stone-50 indent-2 p-4">
-                                    Every day, the amount of data we need to
-                                    combine to create experiences is rising. In
-                                    traditional React applications, managing
-                                    multiple sources of data could easily become
-                                    a nightmare & create code that is too
-                                    complex. Storing, massaging, merging, &
-                                    querying data all require complicated
-                                    solutions that struggle to scale. Gatsby.js
-                                    solves this problem by using GraphQL to
-                                    unify all data sources into a single data
-                                    layer. This makes it easy to combine data
-                                    from CMSs, APIs, databases, & files in a
-                                    single GraphQL endpoint. Gatsby.js also
-                                    provides a rich plugin ecosystem that allows
-                                    you to add various functionalities to your
-                                    site, from image optimization to analytics.
+                                    Every project eventually has to deal with
+                                    pulling in data from multiple places — a
+                                    CMS, a database, third-party APIs. In a
+                                    traditional client-heavy React app,
+                                    juggling all of that can turn into a
+                                    tangle of loading states and prop
+                                    drilling. Next.js solves this by letting
+                                    you fetch data directly in server
+                                    components, close to where it&apos;s
+                                    used, without shipping the fetching logic
+                                    — or the credentials it needs — to the
+                                    browser. Combined with API routes for
+                                    anything that does need to run
+                                    server-side, it&apos;s a much simpler
+                                    mental model than stitching together a
+                                    separate data layer.
                                 </p>
-                                <div className="image-wrapper p-2 relative h-48 w-48 md:h-96 md:w-96">
-                                    <Image
-                                        src="/images/blog/blogdetail-3.png"
-                                        width={500}
-                                        height={500}
-                                        alt="gatsby.js hierarchy"
-                                    />
-                                </div>
                                 <h2 className="heading text-2xl text-blue-400 py-2">
-                                    Why You Should Choose Gatsby.js too?
+                                    Why You Should Consider Next.js Too
                                 </h2>
                                 <ol
                                     role="list"
                                     className="marker:text-sky-400 list-decimal text-slate-300 indent-3"
                                 >
                                     <li>
-                                        <em>Blazing fast performance</em>:
-                                        Gatsby generates static HTML files,
-                                        making your website load in a flash.
-                                        This leads to a better user experience
-                                        and improved search engine ranking.
+                                        <em>Flexible rendering</em>: Choose
+                                        static generation, server-side
+                                        rendering, or streaming — per route,
+                                        not per project. You&apos;re not
+                                        locked into one strategy for
+                                        everything.
                                     </li>
                                     <li>
-                                        <em>Developer-Friendly</em>: Gatsby
-                                        offers a developer-friendly environment
-                                        with hot-reloading, easy-to-use APIs,
-                                        and a vast plugin ecosystem.
+                                        <em>Huge ecosystem & community</em>:
+                                        As the most widely used React
+                                        framework, Next.js has extensive
+                                        docs, a large plugin ecosystem, and
+                                        an easy time finding answers when
+                                        something goes wrong.
                                     </li>
                                     <li>
-                                        <em>SEO-Optimized</em>: Gatsby is
-                                        designed with SEO in mind. It generates
-                                        SEO-friendly HTML pages and provides
-                                        tools for optimizing your website&apos;s
-                                        search engine ranking.
+                                        <em>SEO-friendly by default</em>:
+                                        Server-rendered and statically
+                                        generated pages give search engines
+                                        real HTML to crawl, with built-in
+                                        tools for metadata and sitemaps.
                                     </li>
                                     <li>
-                                        <em>Data Integration</em>: It seamlessly
-                                        integrates with various data sources,
-                                        including CMSs, APIs, and databases.
+                                        <em>Full-stack when you need it</em>:
+                                        API routes and server actions mean
+                                        you can handle backend logic in the
+                                        same codebase, without standing up a
+                                        separate service.
                                     </li>
                                     <li>
-                                        <em>Rich Plugin Ecosystem</em>:
-                                        Gatsby&apos;s plugin system allows you
-                                        to add various functionalities to your
-                                        site, from image optimization to
-                                        analytics.
+                                        <em>First-class deployment</em>:
+                                        Vercel&apos;s zero-config deploys
+                                        (and solid support on other hosts)
+                                        make shipping a Next.js app about as
+                                        painless as it gets.
                                     </li>
                                 </ol>
-
-                                <div className="image-wrapper relative">
-                                    <Image
-                                        src="/images/blog/gatsbyjs-img.png"
-                                        width={300}
-                                        height={300}
-                                        alt="gatsby logo"
-                                        className="pt-8 pb-6"
-                                    />
-                                </div>
                                 <h2 className="heading text-2xl text-blue-400 py-2">
                                     Resources{' '}
                                 </h2>
                                 <p className="text-stone-50 indent-2 p-4 flex flex-col">
-                                    <Link href="https://www.gatsbyjs.com/starters/">
-                                        Starters
+                                    <Link href="https://nextjs.org/docs">
+                                        Official Docs
                                     </Link>
-                                    <Link href="https://github.com/brainhubeu/gatsby-docs-kit">
-                                        Docs Kit
+                                    <Link href="https://github.com/vercel/next.js/tree/canary/examples">
+                                        Example Projects
                                     </Link>
-                                    <Link href="https://www.digitalocean.com/community/tutorials/gatsbyjs-gatsby-cli-quick-reference">
-                                        Quick Reference
+                                    <Link href="https://vercel.com/docs/frameworks/nextjs">
+                                        Deploying on Vercel
                                     </Link>
                                 </p>
                             </div>
 
                             <div className="post-text-bottom">
-                                <div className="social-share">
-                                    <span>Share:</span>
-                                    <Link
-                                        className="share-btn share-btn-facebook share-btn-1"
-                                        title="Share on Facebook"
-                                        href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flindseyk.dev%2F"
-                                    >
-                                        <i className="fab fa-facebook"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-twitter share-btn-2"
-                                        title="Share on Twitter"
-                                        href="https://twitter.com/"
-                                    >
-                                        <i className="fab fa-twitter"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-linkedin share-btn-3"
-                                        title="Share on Linkedin"
-                                        href="https://linkedin.com/"
-                                    >
-                                        <i className="fab fa-linkedin"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-reddit share-btn-4"
-                                        title="Share on Medium"
-                                        href="https://medium.com/"
-                                    >
-                                        <i className="fab fa-medium"></i>
-                                    </Link>
-                                    <Link
-                                        className="share-btn share-btn-pinterest share-btn-5"
-                                        title="Share on Pinterest"
-                                        href="https://pinterest.com/"
-                                    >
-                                        <i className="fab fa-pinterest"></i>
-                                    </Link>
-                                </div>
+                                <SocialShare />
                                 <div className="cat-links">
                                     <span>Posted in </span>
                                     <Link href="/categories/design">
@@ -211,8 +170,8 @@ const BlogPost = () => {
                                 </div>
                                 <div className="tags-links">
                                     <span>Tags:</span>
-                                    <Link href="/tags/code" rel="tag">
-                                        code
+                                    <Link href="/tags/nextjs" rel="tag">
+                                        nextjs
                                     </Link>
                                     <Link href="/tags/frontend" rel="tag">
                                         frontend
